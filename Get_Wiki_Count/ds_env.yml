@@ -9,8 +9,4 @@ dependencies:
   - matplotlib
   - numpy
   - xlrd
-  - seaborn
-  - unidecode
-  - lxml
-  - openpyxl
 prefix: C:\Users\Dani\Anaconda3\envs
