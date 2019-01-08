@@ -8,6 +8,7 @@ dependencies:
   - pandas
   - matplotlib
   - numpy
+  - seaborn
+  - unidecode
   - xlrd
   - lxml
-prefix: C:\Users\Dani\Anaconda3\envs
