@@ -12,4 +12,5 @@ dependencies:
   - unidecode
   - xlrd
   - lxml
+  - urllib3
   - openpyxl
