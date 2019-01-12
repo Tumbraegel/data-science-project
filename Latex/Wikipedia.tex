@@ -13,9 +13,10 @@
 \usepackage{graphicx}
 
 \PassOptionsToPackage{
+style=apa,
 doi=false,
 isbn=false,
-eprint=false,
+eprint=false
 }{biblatex}
 \usepackage[backend=biber]{biblatex}
 \addbibresource{library.bib}
@@ -98,15 +99,19 @@ eprint=false,
 \textbf{}---%
 \end{abstract}%
 
-\section {Problemformulierung}
+\section {Einleitung, Problemformulierung // Tumbrägel, Daniela (558529)}
 
-Die Motivation für unser Projekt ergab sich aus dem Fall von Donna Strickland, die im Jahr 2018 - zusammen mit Gérard Mourou und Arthur Ashkin - einen Nobelpreis im Bereich der Laserphysik erhalten hat \cite{nobelprize}. Sie ist die dritte Frau, der je ein Physik-Nobelpreis verliehen wurde und erst nach der Anerkennung bekam sie einen Wikipedia-Artikel (cf. Washington Post). Ihre männlichen Kollegen sind in der Online-Enzyklopädie schon seit einigen Jahren vertreten. Einige Monate zuvor wurde ein Eintrag über Strickland abgelehnt, da sie von einem der Wikipedia-Editoren als nicht wichtig genug erachtet wurde \cite{stricklandWiki}. Neben zahlreichen anderen Beispielen, zeigt dies die geschlechtsspezifische Diskriminierung auf Wikipedia und insbesondere die Ausgrenzung von Frauen in der Wissenschaft auf (cf. Guardian).
+Die vorliegende Studie ist eine explanative Analyse des Zusammenhangs zwischen sportlichem Erfolg von Sportler*innen und deren Repräsentation auf Wikipedia, gemessen an der Länge der Artikel und der Anzahl der Editierungen. Wie man am Beispiel von Caster Semenya feststellen muss, sind die Olympischen Spiele noch sehr von binären Geschlechterkonstrukten geprägt und unterscheiden die Teilnehmer*innen in ihren Wettbewerben dementsprechend \parencite{IOCRules}. Daher ist die vorliegende Studie zwangsläufig dieser limitierten Sichtweise angepasst und unterscheidet nur zwischen den Kategorien Frauen und Männern.
 
-Geplant war, durch unser Projekt, numerisch und graphisch darzustellen, dass Frauen in der Wissenschaft auf Wikipedia schlechter repräsentiert werden als Männer. Bei der Suche nach effizienten Datenquellen- und -sätzen ergab sich allerdings die Problematik, dass Frauen in der Wissenschaft insgesamt so wenig vertreten sind, dass man keinen sinnvollen Vergleich zwischen Frauen und Männern herstellen kann. [TBE: Die Daten sind einfach nicht da, was ein ganz anderes gesellschaftskritisches Fass aufmacht]. 
+Die Motivation für die Studie ergab sich aus dem Fall von Donna Strickland, die im Jahr 2018 - zusammen mit Gérard Mourou und Arthur Ashkin - einen Nobelpreis im Bereich der Laserphysik erhalten hat \parencite{nobelprize}. Sie ist die dritte Frau, der je ein Physik-Nobelpreis verliehen wurde, und erst nach der Anerkennung wurde ein Wikipedia-Artikel über sie veröffentlicht \parencite{Bazely2018}. Ihre männlichen Kollegen sind in der Online-Enzyklopädie schon seit mehreren Jahren vertreten. Einige Monate zuvor wurde ein Eintrag über Strickland abgelehnt, da sie von einem der Wikipedia-Editoren als nicht wichtig genug erachtet wurde \parencite{stricklandWiki}. Neben zahlreichen anderen Beispielen zeigt dies die geschlechtsspezifische Diskriminierung auf Wikipedia und insbesondere die Ausgrenzung von Frauen in der Wissenschaft auf \parencite{LeylandCecco}.
 
-Wir entschieden uns deshalb für einen anderen Themenbereich, in dem Frauen und Männer gleichermaßen vertreten sind: Sport. Um die Sache entsprechend einzugrenzen, wählten wir die Olympischen Sommerspiele 2016 in Rio de Janeiro. 
+Geplant war, durch unsere Untersuchung zu überprüfen, ob Frauen in der Wissenschaft auf Wikipedia anders repräsentiert werden als Männer. Bei der Suche nach effizienten Datenquellen und Datensätzen ergab sich allerdings die Problematik, dass Frauen in der Wissenschaft insgesamt weniger vertreten sind und es somit sehr schwierig ist, einen sinnvollen Vergleich zwischen Frauen und Männern herzustellen. Deshalb ist die Entscheidung für einen anderen Themenbereich gefallen, in dem Frauen und Männer vergleichbaren Maßen vertreten sind: Sport. Hier ist es möglich ein klares Ranking von individuellen Leistungen aufzustellen und Teilnehmer*innen auf dieser Grundlage zu vergleichen.
 
-Im Hinblick auf die größtenteils gleichmäßige Anzahl von beiden Geschlechtern, untersuchen wir das Verhältnis von sportlichem Erfolg und der entsprechenden Darstellung auf Wikipedia. Motiviert durch die oben genannten Ereignisse, bildet sich unsere These, dass Frauen bei gleichzusetzender Leistung im Vergleich zu Männern auf Wikipedia unzureichend repräsentiert werden. Im Detail differenzieren wir dabei die mittlere Länge und die mittlere Anzahl der redaktionellen Änderungen der Wikipedia-Artikel der Sportler*innen der Olympischen Sommerspiele im Jahr 2016.
+"Research shows just 16\% of Wikipedia editors are female and only 17\% of entries dedicated to notable people are for women" \parencite{PoppyNoor}.
+
+Die Online-Enzyklopädie Wikipedia wird immer wieder für diverse Vorurteile und Tendenzen kritisiert. Darunter fallen Kategorien wie Gender, Kultur und Sprache sowie Geschichte und Politik \parencite{PoppyNoor}.. Diese Studie konzentriert sich dabei auf die Kategorie Gender und untersucht diese im Fokus der Olympischen Sommerspiele 2016 in Rio de Janeiro.
+
+Im Hinblick auf die größtenteils gleichmäßige Anzahl von Frauen und Männern wird das Verhältnis von sportlichem Erfolg und der entsprechenden Darstellung auf Wikipedia untersucht. Motiviert durch die oben genannten Ereignisse, bildet sich unsere These, dass Frauen bei gleichzusetzender Leistung im Vergleich zu Männern auf Wikipedia unzureichend repräsentiert werden. Im Detail wird dabei die mittlere Länge und die mittlere Anzahl der redaktionellen Änderungen der Wikipedia-Artikel der Sportler*innen differenziert.
 
 \section*{Theorie}
 \label{intro}
@@ -191,13 +196,30 @@ Sollten unsere Daten normalverteilt sein, werden wir die Signifikanz mit Hilfe d
 
 
 \section {Durchführung // Jansen, Flip 558059}
-Ausgehend von der Wikipedia-Überblicksseite \cite{wikiOlympicComp}haben wir rekursiv alle Sportarten sowie auf der untersten Ebene die Links der einzelnen Sportler*innen einer Sportart auf Wikipedia gesammelt und in eine CSV-Datei geschrieben. 
 
-Um mögliche Fehlern beim Sammeln der Daten von der Olympic.org - Seite zu vermeiden, haben wir das Olympic Studies Centre angeschrieben, die uns eine Excel-Tabelle mit den ausführlichen Ergebnissen der Olympischen Sommerspiele 2016 zur Verfügung gestellt haben.
+\subsection {Datenbeschaffung und Datenpräparation}
+Ausgehend von der englischsprachigen Wikipedia-Übersichtsseite der Teilnehmer*innen der Olympischen Sommerspiele 2016 \parencite{wikiOlympicComp} haben wir rekursiv alle Sportarten gesammelt. Nachfolgend haben wir über die Sportarten die URLs und damit die Wikipedia-Titel der einzelnen Sportler*innen einer Disziplin gesammelt. 
 
-Um die Wikipedia-Links mit den von uns benötigten Daten der Ergebnistabelle zu verbinden, mussten wir die unterschiedlichen Namensformate anpassen und Sonderzeichen umwandeln. So setzt zum Beispiel Wikipedia bei Namensgleichheit von in Wikipedia erfassten Personen eine Kategoriebezeichnung ans Ende des Namens: "(diver)".
+Für das Verarbeiten der HTML-Seiten haben wir die Python-Bibliothek \textit{lxml} \parencite{lxml} verwendet.
 
-Trotzdem konnten wir einige Links nicht automatisiert zuordnen, da es zum einen in den Ergebnistabelle Rechtschreibfehler in den Namen gibt, zum anderen, weil gerade bei Namen aus Sprachgebieten mit nicht-lateinischer Schrift unterschiedliche !!!Konvertierungen!!!
+Um mögliche Fehler beim Sammeln der Daten von \textit{olympic.org} zu vermeiden, haben wir das Olympic Studies Centre per Mail kontaktiert. Diese haben uns daraufhin eine Excel-Tabelle mit den ausführlichen Ergebnissen der Olympischen Sommerspiele 2016 zur Verfügung gestellt.
+
+Die Daten haben wir anschließend nach den von uns gewählten Stichproben gefiltert, sodass daraus 8 Disziplinen mit den jeweils am besten Frauen und Männern resultierten. Da die Anzahl der Frauen und Männer innerhalb einer Disziplin teils nicht identisch war, entfernten wir die überzähligen Sportler*innen einer Disziplin, um gleiche Gruppengrößen innerhalb jeder Disziplin zu erzielen.
+
+Um die Wikipedia-Titel mit den von uns benötigten Daten der Ergebnistabelle zu verbinden, mussten wir nun die unterschiedlichen Namensformate anpassen und Sonderzeichen umwandeln. So setzt zum Beispiel Wikipedia bei Namensgleichheit von in Wikipedia erfassten Personen eine Kategoriebezeichnung ans Ende des Namens, z.B. "(diver)".
+
+Trotzdem konnten wir einige URLs nicht automatisiert zuordnen, da es zum einen in der Ergebnistabelle Rechtschreibfehler in den Namen gab, zum anderen bei Namen aus Sprachgebieten mit nicht-lateinischer Schrift unterschiedliche Umschriften möglich sind. Auch wurde die Reihenfolge von Namensbestandteilen insbesondere aus dem asiatischen Raum nicht einheitlich gehandhabt. Teilweise ließ sich dieses Problem dadurch lösen, die Namensbestandteile permutierend zu vergleichen. 
+
+Ein Versuch, möglichen Rechtschreibfehlern bzw. Problemen mit Sonderzeichen zu begegnen, haben wir mithilfe des Levenshtein-Algorithmus unternommen \parencite{Sulzberger2019}. Dieser gibt die Anzahl von Einfüge-, Lösch- und Ersetz-Operationen zurück, die notwendig sind, um eine Zeichenkette in eine zweite umzuwandeln. Trotz niedrig angesetzten Schwellenwerten gab es aber zu viele falsche Zuordnungen, sodass wir darauf verzichtet haben. Für eine umfangreichere Datenauswertung lohnt es sich vermutlich, weiter in diese Richtung zu forschen. 
+
+Schlussendlich mussten wir einige Wikipedia-URLs der Sportler*innen manuell den entsprechenden Namen zuordnen. 
+
+Mit den bereinigten Daten konnten wir nun mit Hilfe der Wikipedia-Bibliothek für Python \cite{goldsmith} den zum Titel gehörenden Artikel auslesen. Nach Bereinigung des Artikels von Steuerungszeichen haben wir die Wörter gezählt und unserem \textit{pandas} Dataframe hinzugefügt. 
+
+Die Anzahl der Editierungen konnten wir auf der "Page information"-Seite des jeweiligen Hauptartikels auslesen, die diesem Format folgt:
+\url{https://en.wikipedia.org/w/index.php?title=PYTHON&action=info}
+
+Mit manuellen Stichproben haben wir die Richtigkeit unserer Daten überprüft.
 
 \section {Ergebnisse}
 \subsection{Anzahl der Editierungen // Tumbrägel, Daniela 558529}
