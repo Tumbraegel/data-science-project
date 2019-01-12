@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.9 $
+% $ biblatex bbl format version 3.0 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -21,25 +21,21 @@
   \datalist[entry]{nty/global//global/global}
     \entry{Alexa2019}{misc}{}
       \name{author}{1}{}{%
-        {{hash=4fb213d5c154b9509af172e35432eb1a}{%
+        {{hash=43f5fa8cf0d7342f510be7a6a5043ddf}{%
            family={{Alexa Internet Inc.}},
            familyi={A\bibinitperiod}}}%
       }
-      \strng{namehash}{4fb213d5c154b9509af172e35432eb1a}
-      \strng{fullhash}{4fb213d5c154b9509af172e35432eb1a}
-      \strng{bibnamehash}{4fb213d5c154b9509af172e35432eb1a}
-      \strng{authorbibnamehash}{4fb213d5c154b9509af172e35432eb1a}
-      \strng{authornamehash}{4fb213d5c154b9509af172e35432eb1a}
-      \strng{authorfullhash}{4fb213d5c154b9509af172e35432eb1a}
+      \strng{namehash}{43f5fa8cf0d7342f510be7a6a5043ddf}
+      \strng{fullhash}{43f5fa8cf0d7342f510be7a6a5043ddf}
+      \strng{bibnamehash}{43f5fa8cf0d7342f510be7a6a5043ddf}
+      \strng{authorbibnamehash}{43f5fa8cf0d7342f510be7a6a5043ddf}
+      \strng{authornamehash}{43f5fa8cf0d7342f510be7a6a5043ddf}
+      \strng{authorfullhash}{43f5fa8cf0d7342f510be7a6a5043ddf}
       \field{sortinit}{A}
       \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Alexa Top 500 Global Sites}}
-      \field{urlday}{9}
-      \field{urlmonth}{1}
-      \field{urlyear}{2019}
-      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.alexa.com/topsites
       \endverb
@@ -49,23 +45,23 @@
     \endentry
     \entry{Billings2008}{article}{}
       \name{author}{2}{}{%
-        {{hash=61c46dbc0f7eba5cf82ae0395517f255}{%
+        {{hash=a770a8ce26905777eee55bcb66d49e94}{%
            family={Billings},
            familyi={B\bibinitperiod},
-           given={Andrew\bibnamedelima C.},
+           given={Andrew\bibnamedelima C},
            giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=5508e0c2a0dc6161e242e74fc2cc6729}{%
+        {{hash=2ad6a809ef7c241273bb9f26339b91de}{%
            family={Angelini},
            familyi={A\bibinitperiod},
-           given={James\bibnamedelima R.},
+           given={James\bibnamedelima R},
            giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
       }
-      \strng{namehash}{303cd4ab31f022e1ea557fbf9bc07826}
-      \strng{fullhash}{303cd4ab31f022e1ea557fbf9bc07826}
-      \strng{bibnamehash}{303cd4ab31f022e1ea557fbf9bc07826}
-      \strng{authorbibnamehash}{303cd4ab31f022e1ea557fbf9bc07826}
-      \strng{authornamehash}{303cd4ab31f022e1ea557fbf9bc07826}
-      \strng{authorfullhash}{303cd4ab31f022e1ea557fbf9bc07826}
+      \strng{namehash}{883bd29e05f1aa4238b55ff7a31a11ed}
+      \strng{fullhash}{883bd29e05f1aa4238b55ff7a31a11ed}
+      \strng{bibnamehash}{883bd29e05f1aa4238b55ff7a31a11ed}
+      \strng{authorbibnamehash}{883bd29e05f1aa4238b55ff7a31a11ed}
+      \strng{authornamehash}{883bd29e05f1aa4238b55ff7a31a11ed}
+      \strng{authorfullhash}{883bd29e05f1aa4238b55ff7a31a11ed}
       \field{sortinit}{B}
       \field{sortinithash}{276475738cc058478c1677046f857703}
       \field{labelnamesource}{author}
@@ -83,42 +79,11 @@
       \verb{doi}
       \verb 10.1080/08838150903550352
       \endverb
-      \verb{file}
-      \verb :Users/lisa/Documents/Angewandte{\_}Informatik/4{\_}Semester/Soziale Netze/Projekt/Literatur/billings2010.pdf:pdf
-      \endverb
       \verb{urlraw}
       \verb http://www.tandfonline.com/doi/abs/10.1080/08838150903550352
       \endverb
       \verb{url}
       \verb http://www.tandfonline.com/doi/abs/10.1080/08838150903550352
-      \endverb
-    \endentry
-    \entry{goldsmith}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=d5f4f40a0e9312ec91fca3f901225156}{%
-           family={GitHub.com},
-           familyi={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{d5f4f40a0e9312ec91fca3f901225156}
-      \strng{fullhash}{d5f4f40a0e9312ec91fca3f901225156}
-      \strng{bibnamehash}{d5f4f40a0e9312ec91fca3f901225156}
-      \strng{authorbibnamehash}{d5f4f40a0e9312ec91fca3f901225156}
-      \strng{authornamehash}{d5f4f40a0e9312ec91fca3f901225156}
-      \strng{authorfullhash}{d5f4f40a0e9312ec91fca3f901225156}
-      \field{sortinit}{G}
-      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{GitHub - goldsmith/Wikipedia: A Pythonic wrapper for the Wikipedia API}}
-      \field{urlday}{9}
-      \field{urlmonth}{1}
-      \field{urlyear}{2019}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://github.com/goldsmith/Wikipedia
-      \endverb
-      \verb{url}
-      \verb https://github.com/goldsmith/Wikipedia
       \endverb
     \endentry
     \entry{GraellsGarrido2015}{article}{}
@@ -161,9 +126,6 @@
       \verb{eprint}
       \verb 1502.02341
       \endverb
-      \verb{file}
-      \verb :Users/lisa/Documents/Angewandte{\_}Informatik/4{\_}Semester/Soziale Netze/Projekt/Literatur/First{\_}Women{\_}Second{\_}Sex{\_}Gender{\_}Bias{\_}in{\_}Wikipedia.pdf:pdf
-      \endverb
       \verb{urlraw}
       \verb http://arxiv.org/abs/1502.02341{\%}0Ahttp://dx.doi.org/10.1145/2700171.2791036
       \endverb
@@ -188,6 +150,7 @@
       \strng{authorbibnamehash}{a7ca59d23516b64d130f48574dd0bc45}
       \strng{authornamehash}{a7ca59d23516b64d130f48574dd0bc45}
       \strng{authorfullhash}{a7ca59d23516b64d130f48574dd0bc45}
+      \field{extraname}{1}
       \field{sortinit}{H}
       \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
       \field{labelnamesource}{author}
@@ -226,15 +189,13 @@
       \strng{authorbibnamehash}{79125ae2d7ede993ffa34b83c6710306}
       \strng{authornamehash}{79125ae2d7ede993ffa34b83c6710306}
       \strng{authorfullhash}{79125ae2d7ede993ffa34b83c6710306}
+      \field{extraname}{2}
       \field{sortinit}{H}
       \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Global Sports Salaries Survey 2015}}
       \field{year}{2015}
-      \verb{file}
-      \verb :Users/lisa/Documents/Angewandte{\_}Informatik/4{\_}Semester/Soziale Netze/Projekt/Literatur/GSSS 2018.pdf:pdf
-      \endverb
       \verb{urlraw}
       \verb http://www.globalsportssalaries.com/GSSS 2015.pdf
       \endverb
@@ -244,7 +205,7 @@
     \endentry
     \entry{Hill2013}{article}{}
       \name{author}{2}{}{%
-        {{hash=54d1e03f6ef8fd73defc01880214ac9f}{%
+        {{hash=9be375139cf12475b1eaadb1bd3e7d69}{%
            family={Hill},
            familyi={H\bibinitperiod},
            given={Benjamin\bibnamedelima Mako},
@@ -255,12 +216,12 @@
            given={Aaron},
            giveni={A\bibinitperiod}}}%
       }
-      \strng{namehash}{068b50482923ecbd2dfe260fe4caf397}
-      \strng{fullhash}{068b50482923ecbd2dfe260fe4caf397}
-      \strng{bibnamehash}{068b50482923ecbd2dfe260fe4caf397}
-      \strng{authorbibnamehash}{068b50482923ecbd2dfe260fe4caf397}
-      \strng{authornamehash}{068b50482923ecbd2dfe260fe4caf397}
-      \strng{authorfullhash}{068b50482923ecbd2dfe260fe4caf397}
+      \strng{namehash}{bbc6192b404bdbf38bc595c9209a4b35}
+      \strng{fullhash}{bbc6192b404bdbf38bc595c9209a4b35}
+      \strng{bibnamehash}{bbc6192b404bdbf38bc595c9209a4b35}
+      \strng{authorbibnamehash}{bbc6192b404bdbf38bc595c9209a4b35}
+      \strng{authornamehash}{bbc6192b404bdbf38bc595c9209a4b35}
+      \strng{authorfullhash}{bbc6192b404bdbf38bc595c9209a4b35}
       \field{sortinit}{H}
       \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
       \field{labelnamesource}{author}
@@ -277,8 +238,33 @@
       \verb{doi}
       \verb 10.1371/journal.pone.0065782
       \endverb
-      \verb{file}
-      \verb :Users/lisa/Documents/Angewandte{\_}Informatik/4{\_}Semester/Soziale Netze/Projekt/Literatur/The Wikipedia Gender Gap Revisited-.PDF:PDF
+    \endentry
+    \entry{GoldsmithWikipedia}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=5a83b4d8d0c398a1324fc680fdc6a1c0}{%
+           family={{Jonathan Goldsmith}},
+           familyi={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{5a83b4d8d0c398a1324fc680fdc6a1c0}
+      \strng{fullhash}{5a83b4d8d0c398a1324fc680fdc6a1c0}
+      \strng{bibnamehash}{5a83b4d8d0c398a1324fc680fdc6a1c0}
+      \strng{authorbibnamehash}{5a83b4d8d0c398a1324fc680fdc6a1c0}
+      \strng{authornamehash}{5a83b4d8d0c398a1324fc680fdc6a1c0}
+      \strng{authorfullhash}{5a83b4d8d0c398a1324fc680fdc6a1c0}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{goldsmith/WGoldsmith. (n.d.). goldsmith/Wikipedia. Retrieved January 12, 2019, from https://github.com/goldsmith/Wikipediaikipedia}}
+      \field{urlday}{12}
+      \field{urlmonth}{1}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/goldsmith/Wikipedia
+      \endverb
+      \verb{url}
+      \verb https://github.com/goldsmith/Wikipedia
       \endverb
     \endentry
     \entry{Jones1999}{misc}{}
@@ -288,10 +274,10 @@
            familyi={J\bibinitperiod},
            given={Ray},
            giveni={R\bibinitperiod}}}%
-        {{hash=95f59394f81c5984ad3032cbc6de10ff}{%
+        {{hash=e9c2e44f7485df87242d1e445ac3d32c}{%
            family={Murrell},
            familyi={M\bibinitperiod},
-           given={Audrey\bibnamedelima J.},
+           given={Audrey\bibnamedelima J},
            giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
         {{hash=05504cfba04d35d7e17ec0cfc9b48a78}{%
            family={Jackson},
@@ -299,12 +285,12 @@
            given={Jennifer},
            giveni={J\bibinitperiod}}}%
       }
-      \strng{namehash}{ec23c6da3fe68c64a1815914034d91ee}
-      \strng{fullhash}{ec23c6da3fe68c64a1815914034d91ee}
-      \strng{bibnamehash}{ec23c6da3fe68c64a1815914034d91ee}
-      \strng{authorbibnamehash}{ec23c6da3fe68c64a1815914034d91ee}
-      \strng{authornamehash}{ec23c6da3fe68c64a1815914034d91ee}
-      \strng{authorfullhash}{ec23c6da3fe68c64a1815914034d91ee}
+      \strng{namehash}{5132bd0011ed9dd7cf74e78c8102576d}
+      \strng{fullhash}{5132bd0011ed9dd7cf74e78c8102576d}
+      \strng{bibnamehash}{5132bd0011ed9dd7cf74e78c8102576d}
+      \strng{authorbibnamehash}{5132bd0011ed9dd7cf74e78c8102576d}
+      \strng{authornamehash}{5132bd0011ed9dd7cf74e78c8102576d}
+      \strng{authorfullhash}{5132bd0011ed9dd7cf74e78c8102576d}
       \field{sortinit}{J}
       \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
       \field{labelnamesource}{author}
@@ -326,9 +312,6 @@
       \verb{eprint}
       \verb 0803973233
       \endverb
-      \verb{file}
-      \verb :Users/lisa/Documents/Angewandte{\_}Informatik/4{\_}Semester/Soziale Netze/Projekt/Literatur/Pretty versus powerful in the sports pages.pdf:pdf
-      \endverb
       \verb{urlraw}
       \verb http://journals.sagepub.com/doi/10.1177/0193723599232005
       \endverb
@@ -336,83 +319,51 @@
       \verb http://journals.sagepub.com/doi/10.1177/0193723599232005
       \endverb
     \endentry
-    \entry{matplotlib}{misc}{}
+    \entry{LundResearchLtd}{misc}{}
       \name{author}{1}{}{%
-        {{hash=1587383cf8c21507d06fb51ef7ddda0c}{%
-           family={Matplotlib},
-           familyi={M\bibinitperiod}}}%
+        {{hash=704aa1f011d5ad0c1f374473ce675ac8}{%
+           family={{Lund Research Ltd}},
+           familyi={L\bibinitperiod}}}%
       }
-      \strng{namehash}{1587383cf8c21507d06fb51ef7ddda0c}
-      \strng{fullhash}{1587383cf8c21507d06fb51ef7ddda0c}
-      \strng{bibnamehash}{1587383cf8c21507d06fb51ef7ddda0c}
-      \strng{authorbibnamehash}{1587383cf8c21507d06fb51ef7ddda0c}
-      \strng{authornamehash}{1587383cf8c21507d06fb51ef7ddda0c}
-      \strng{authorfullhash}{1587383cf8c21507d06fb51ef7ddda0c}
-      \field{sortinit}{M}
-      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \strng{namehash}{704aa1f011d5ad0c1f374473ce675ac8}
+      \strng{fullhash}{704aa1f011d5ad0c1f374473ce675ac8}
+      \strng{bibnamehash}{704aa1f011d5ad0c1f374473ce675ac8}
+      \strng{authorbibnamehash}{704aa1f011d5ad0c1f374473ce675ac8}
+      \strng{authornamehash}{704aa1f011d5ad0c1f374473ce675ac8}
+      \strng{authorfullhash}{704aa1f011d5ad0c1f374473ce675ac8}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{{Matplotlib: Python plotting}}
-      \field{urlday}{9}
+      \field{title}{{Mann-Whitney U Test}}
+      \field{urlday}{12}
       \field{urlmonth}{1}
       \field{urlyear}{2019}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://matplotlib.org/
+      \verb https://statistics.laerd.com/spss-tutorials/mann-whitney-u-test-using-spss-statistics.php
       \endverb
       \verb{url}
-      \verb https://matplotlib.org/
-      \endverb
-    \endentry
-    \entry{seaborn}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=d709b59d5549f8e4714e5640cfbc56bb}{%
-           family={{Michael Waskom}},
-           familyi={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{d709b59d5549f8e4714e5640cfbc56bb}
-      \strng{fullhash}{d709b59d5549f8e4714e5640cfbc56bb}
-      \strng{bibnamehash}{d709b59d5549f8e4714e5640cfbc56bb}
-      \strng{authorbibnamehash}{d709b59d5549f8e4714e5640cfbc56bb}
-      \strng{authornamehash}{d709b59d5549f8e4714e5640cfbc56bb}
-      \strng{authorfullhash}{d709b59d5549f8e4714e5640cfbc56bb}
-      \field{sortinit}{M}
-      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{seaborn - statistical data visualization}
-      \field{urlday}{9}
-      \field{urlmonth}{1}
-      \field{urlyear}{2019}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://seaborn.pydata.org/
-      \endverb
-      \verb{url}
-      \verb https://seaborn.pydata.org/
+      \verb https://statistics.laerd.com/spss-tutorials/mann-whitney-u-test-using-spss-statistics.php
       \endverb
     \endentry
     \entry{nobelprize}{misc}{}
       \name{author}{1}{}{%
-        {{hash=5a006a9bc1bfd485a2b8c541a1a3f0d0}{%
+        {{hash=010c9809a96c15ea8574e43500b22ed8}{%
            family={{Nobel Media AB}},
            familyi={N\bibinitperiod}}}%
       }
-      \strng{namehash}{5a006a9bc1bfd485a2b8c541a1a3f0d0}
-      \strng{fullhash}{5a006a9bc1bfd485a2b8c541a1a3f0d0}
-      \strng{bibnamehash}{5a006a9bc1bfd485a2b8c541a1a3f0d0}
-      \strng{authorbibnamehash}{5a006a9bc1bfd485a2b8c541a1a3f0d0}
-      \strng{authornamehash}{5a006a9bc1bfd485a2b8c541a1a3f0d0}
-      \strng{authorfullhash}{5a006a9bc1bfd485a2b8c541a1a3f0d0}
+      \strng{namehash}{010c9809a96c15ea8574e43500b22ed8}
+      \strng{fullhash}{010c9809a96c15ea8574e43500b22ed8}
+      \strng{bibnamehash}{010c9809a96c15ea8574e43500b22ed8}
+      \strng{authorbibnamehash}{010c9809a96c15ea8574e43500b22ed8}
+      \strng{authornamehash}{010c9809a96c15ea8574e43500b22ed8}
+      \strng{authorfullhash}{010c9809a96c15ea8574e43500b22ed8}
       \field{sortinit}{N}
       \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{The Nobel Prize in Physics 2018}}
-      \field{urlday}{9}
-      \field{urlmonth}{1}
-      \field{urlyear}{2019}
-      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.nobelprize.org/prizes/physics/2018/summary/
       \endverb
@@ -422,25 +373,21 @@
     \endentry
     \entry{olympicResults}{misc}{}
       \name{author}{1}{}{%
-        {{hash=5810925139b8c90fcb3e292fe1a35603}{%
+        {{hash=8ac935f217dcbaddd8f8d6afeb7db7dd}{%
            family={Olympic.org},
            familyi={O\bibinitperiod}}}%
       }
-      \strng{namehash}{5810925139b8c90fcb3e292fe1a35603}
-      \strng{fullhash}{5810925139b8c90fcb3e292fe1a35603}
-      \strng{bibnamehash}{5810925139b8c90fcb3e292fe1a35603}
-      \strng{authorbibnamehash}{5810925139b8c90fcb3e292fe1a35603}
-      \strng{authornamehash}{5810925139b8c90fcb3e292fe1a35603}
-      \strng{authorfullhash}{5810925139b8c90fcb3e292fe1a35603}
+      \strng{namehash}{8ac935f217dcbaddd8f8d6afeb7db7dd}
+      \strng{fullhash}{8ac935f217dcbaddd8f8d6afeb7db7dd}
+      \strng{bibnamehash}{8ac935f217dcbaddd8f8d6afeb7db7dd}
+      \strng{authorbibnamehash}{8ac935f217dcbaddd8f8d6afeb7db7dd}
+      \strng{authornamehash}{8ac935f217dcbaddd8f8d6afeb7db7dd}
+      \strng{authorfullhash}{8ac935f217dcbaddd8f8d6afeb7db7dd}
       \field{sortinit}{O}
       \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Olympic Results, Gold Medalists and Official Records}}
-      \field{urlday}{9}
-      \field{urlmonth}{1}
-      \field{urlyear}{2019}
-      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.olympic.org/olympic-results
       \endverb
@@ -465,10 +412,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Spielergeh{ä}lter in Frauen-Fu{ß}ballligen Saison 2017/2018}}
-      \field{urlday}{10}
-      \field{urlmonth}{1}
-      \field{urlyear}{2019}
-      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://de.statista.com/statistik/daten/studie/819734/umfrage/spielergehaelter-in-frauen-fussballligen/
       \endverb
@@ -478,21 +421,21 @@
     \endentry
     \entry{Trolan2013}{article}{}
       \name{author}{1}{}{%
-        {{hash=45c505acc8e07d0da12d6da2f0374b08}{%
+        {{hash=b184028db90253e34868723a64998cf7}{%
            family={Trolan},
            familyi={T\bibinitperiod},
-           given={Eoin\bibnamedelima J.},
+           given={Eoin\bibnamedelima J},
            giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {Elsevier B.V.}%
       }
-      \strng{namehash}{45c505acc8e07d0da12d6da2f0374b08}
-      \strng{fullhash}{45c505acc8e07d0da12d6da2f0374b08}
-      \strng{bibnamehash}{45c505acc8e07d0da12d6da2f0374b08}
-      \strng{authorbibnamehash}{45c505acc8e07d0da12d6da2f0374b08}
-      \strng{authornamehash}{45c505acc8e07d0da12d6da2f0374b08}
-      \strng{authorfullhash}{45c505acc8e07d0da12d6da2f0374b08}
+      \strng{namehash}{b184028db90253e34868723a64998cf7}
+      \strng{fullhash}{b184028db90253e34868723a64998cf7}
+      \strng{bibnamehash}{b184028db90253e34868723a64998cf7}
+      \strng{authorbibnamehash}{b184028db90253e34868723a64998cf7}
+      \strng{authornamehash}{b184028db90253e34868723a64998cf7}
+      \strng{authorfullhash}{b184028db90253e34868723a64998cf7}
       \field{sortinit}{T}
       \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
       \field{labelnamesource}{author}
@@ -512,9 +455,6 @@
       \endverb
       \verb{eprint}
       \verb arXiv:1403.3856v1
-      \endverb
-      \verb{file}
-      \verb :Users/lisa/Documents/Angewandte{\_}Informatik/4{\_}Semester/Soziale Netze/Projekt/Literatur/The impact of the media on gender inequality within sport.pdf:pdf
       \endverb
       \verb{urlraw}
       \verb http://linkinghub.elsevier.com/retrieve/pii/S1877042813025512
@@ -603,9 +543,6 @@
       \verb{eprint}
       \verb 1501.06307
       \endverb
-      \verb{file}
-      \verb :Users/lisa/Documents/Angewandte{\_}Informatik/4{\_}Semester/Soziale Netze/Projekt/Literatur/It's a Man's Wikipedia? Assessing Gender Inequality in an Online Encyclopedia.pdf:pdf
-      \endverb
       \verb{urlraw}
       \verb http://arxiv.org/abs/1501.06307
       \endverb
@@ -615,25 +552,22 @@
     \endentry
     \entry{wikimediaReport}{misc}{}
       \name{author}{1}{}{%
-        {{hash=0cf2ab78d0d55e7d90fed54e36449dd4}{%
+        {{hash=28b6ba9f3638a296385fabdb51df1580}{%
            family={{Wikimedia Foundation}},
            familyi={W\bibinitperiod}}}%
       }
-      \strng{namehash}{0cf2ab78d0d55e7d90fed54e36449dd4}
-      \strng{fullhash}{0cf2ab78d0d55e7d90fed54e36449dd4}
-      \strng{bibnamehash}{0cf2ab78d0d55e7d90fed54e36449dd4}
-      \strng{authorbibnamehash}{0cf2ab78d0d55e7d90fed54e36449dd4}
-      \strng{authornamehash}{0cf2ab78d0d55e7d90fed54e36449dd4}
-      \strng{authorfullhash}{0cf2ab78d0d55e7d90fed54e36449dd4}
+      \strng{namehash}{28b6ba9f3638a296385fabdb51df1580}
+      \strng{fullhash}{28b6ba9f3638a296385fabdb51df1580}
+      \strng{bibnamehash}{28b6ba9f3638a296385fabdb51df1580}
+      \strng{authorbibnamehash}{28b6ba9f3638a296385fabdb51df1580}
+      \strng{authornamehash}{28b6ba9f3638a296385fabdb51df1580}
+      \strng{authorfullhash}{28b6ba9f3638a296385fabdb51df1580}
+      \field{extraname}{1}
       \field{sortinit}{W}
       \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Community Engagement Insights 2018 Report}}
-      \field{urlday}{9}
-      \field{urlmonth}{1}
-      \field{urlyear}{2019}
-      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://meta.wikimedia.org/wiki/Community{\_}Engagement{\_}Insights/2018{\_}Report
       \endverb
@@ -644,25 +578,22 @@
     \endentry
     \entry{wikipediaTimeline}{misc}{}
       \name{author}{1}{}{%
-        {{hash=0cf2ab78d0d55e7d90fed54e36449dd4}{%
+        {{hash=28b6ba9f3638a296385fabdb51df1580}{%
            family={{Wikimedia Foundation}},
            familyi={W\bibinitperiod}}}%
       }
-      \strng{namehash}{0cf2ab78d0d55e7d90fed54e36449dd4}
-      \strng{fullhash}{0cf2ab78d0d55e7d90fed54e36449dd4}
-      \strng{bibnamehash}{0cf2ab78d0d55e7d90fed54e36449dd4}
-      \strng{authorbibnamehash}{0cf2ab78d0d55e7d90fed54e36449dd4}
-      \strng{authornamehash}{0cf2ab78d0d55e7d90fed54e36449dd4}
-      \strng{authorfullhash}{0cf2ab78d0d55e7d90fed54e36449dd4}
+      \strng{namehash}{28b6ba9f3638a296385fabdb51df1580}
+      \strng{fullhash}{28b6ba9f3638a296385fabdb51df1580}
+      \strng{bibnamehash}{28b6ba9f3638a296385fabdb51df1580}
+      \strng{authorbibnamehash}{28b6ba9f3638a296385fabdb51df1580}
+      \strng{authornamehash}{28b6ba9f3638a296385fabdb51df1580}
+      \strng{authorfullhash}{28b6ba9f3638a296385fabdb51df1580}
+      \field{extraname}{2}
       \field{sortinit}{W}
       \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Wikipedia Timeline}}
-      \field{urlday}{9}
-      \field{urlmonth}{1}
-      \field{urlyear}{2019}
-      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://meta.wikimedia.org/wiki/Wikipedia{\_}timeline
       \endverb
@@ -682,15 +613,12 @@
       \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
       \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
       \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{extraname}{1}
       \field{sortinit}{W}
       \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Competitors at the 2016 Summer Olympics}}
-      \field{urlday}{9}
-      \field{urlmonth}{1}
-      \field{urlyear}{2019}
-      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://en.wikipedia.org/wiki/Category:Competitors{\_}at{\_}the{\_}2016{\_}Summer{\_}Olympics
       \endverb
@@ -710,15 +638,12 @@
       \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
       \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
       \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{extraname}{2}
       \field{sortinit}{W}
       \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Donna Strickland - Wikipedia (old revision)}}
-      \field{urlday}{9}
-      \field{urlmonth}{1}
-      \field{urlyear}{2019}
-      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://en.wikipedia.org/w/index.php?title=Draft:Donna{\_}Strickland{\&}oldid=842614385
       \endverb
@@ -738,6 +663,7 @@
       \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
       \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
       \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{extraname}{3}
       \field{sortinit}{W}
       \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
       \field{labelnamesource}{author}
@@ -762,15 +688,12 @@
       \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
       \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
       \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{extraname}{4}
       \field{sortinit}{W}
       \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Wikipedia Tutorial {\&} Registration}}
-      \field{urlday}{9}
-      \field{urlmonth}{1}
-      \field{urlyear}{2019}
-      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://en.wikipedia.org/wiki/Wikipedia:Tutorial/Registration
       \endverb
@@ -790,6 +713,7 @@
       \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
       \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
       \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{extraname}{5}
       \field{sortinit}{W}
       \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
       \field{labelnamesource}{author}
@@ -802,9 +726,37 @@
       \verb https://en.wikipedia.org/wiki/Wikipedia:Wikipedians
       \endverb
     \endentry
+    \entry{WikpediaOlympics2016}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=2fabb138f2019e84d20d0e279cb2914a}{%
+           family={Wikpedia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{2fabb138f2019e84d20d0e279cb2914a}
+      \strng{fullhash}{2fabb138f2019e84d20d0e279cb2914a}
+      \strng{bibnamehash}{2fabb138f2019e84d20d0e279cb2914a}
+      \strng{authorbibnamehash}{2fabb138f2019e84d20d0e279cb2914a}
+      \strng{authornamehash}{2fabb138f2019e84d20d0e279cb2914a}
+      \strng{authorfullhash}{2fabb138f2019e84d20d0e279cb2914a}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Competitors 2016 Summer Olympics - Wikipedia}}
+      \field{urlday}{12}
+      \field{urlmonth}{1}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Category:Competitors{\_}at{\_}the{\_}2016{\_}Summer{\_}Olympics
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Category:Competitors%7B%5C_%7Dat%7B%5C_%7Dthe%7B%5C_%7D2016%7B%5C_%7DSummer%7B%5C_%7DOlympics
+      \endverb
+    \endentry
     \entry{Wirtz}{book}{}
       \name{author}{3}{}{%
-        {{hash=263453e1f964ef1a190fad8db0352262}{%
+        {{hash=5da624dfcd39d2507fe30a30f4d246b2}{%
            family={Wirtz},
            familyi={W\bibinitperiod},
            given={Markus\bibnamedelima Antonius},
@@ -823,12 +775,12 @@
       \list{publisher}{1}{%
         {Wirtz, Markus Antonius}%
       }
-      \strng{namehash}{57e200729ace10f772ba29d571314dc0}
-      \strng{fullhash}{57e200729ace10f772ba29d571314dc0}
-      \strng{bibnamehash}{57e200729ace10f772ba29d571314dc0}
-      \strng{authorbibnamehash}{57e200729ace10f772ba29d571314dc0}
-      \strng{authornamehash}{57e200729ace10f772ba29d571314dc0}
-      \strng{authorfullhash}{57e200729ace10f772ba29d571314dc0}
+      \strng{namehash}{8fb8293d33d7779cfdd18c259c620f31}
+      \strng{fullhash}{8fb8293d33d7779cfdd18c259c620f31}
+      \strng{bibnamehash}{8fb8293d33d7779cfdd18c259c620f31}
+      \strng{authorbibnamehash}{8fb8293d33d7779cfdd18c259c620f31}
+      \strng{authornamehash}{8fb8293d33d7779cfdd18c259c620f31}
+      \strng{authorfullhash}{8fb8293d33d7779cfdd18c259c620f31}
       \field{sortinit}{W}
       \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
       \field{labelnamesource}{author}

@@ -77,7 +77,7 @@ eprint=false,
 
 
 \author{Lisa Hillebrand}%
-\author{Josefine Busch}%
+\author{Josefine Sophie Busch}%
 \author{Daniela Tumbrägel}%
 \author{Flip Jansen}%
 \affil{HTW Berlin}%
@@ -145,79 +145,50 @@ Es ergeben sich folgende Hypothesen:
 
 Diese Untersuchung überprüft die Hypothesen anhand von acht ausgewählten Wettkämpfen bei den Olympischen Spielen in Rio 2016.
 
-\section*{Methode //Josefine, Busch 560106}
+\section{Methodik // Busch, Josefine 560106}
 \label{igw}
 
-\subsection*{Erhebungsart}
-Zur Beschaffung der Daten stehen uns zwei Möglichkeiten zur Verfügung. Auf der offiziellen Webseite der Olympischen Kommission sind die Namen der Teilnehmenden der vergangenen Spiele veröffentlicht.\cite{olympicResults} Der Vorteil dieser Daten ist, dass sie bereits in weibliche und männliche Teilnehmer unterteilt sind. Alternativ sind auch direkt auf Wikipedia Listen der Teilnehmenden zu finden. \cite{wikiOlympicComp} Die Wikipedia Listen beinhalten direkte Verlinkungen zu den jeweiligen Seiten der Sportler*innen, allerdings ist hier nicht mehr ohne Weiteres auszulesen, welchem Gender die Person angehört. Um diese Information zu bekommen müsste der Fließtext auf die verwendeten Pronomen untersucht werden. Auch andere Informationen sind bei Wikipedia nicht mehr so leicht auslesbar wie aus der Liste von Olympic.org. Besonders sind die Sportler*innen nach dem Alphabet geordnet nicht nach dem erreichten Rang, dieser müsste also ebenfalls aus dem Fließtext ausgelesen werden.
+\subsection{Erhebungsart}
+Zur Beschaffung der Daten stehen uns zwei Möglichkeiten zur Verfügung. Auf der offiziellen Webseite der Olympischen Kommission sind die Namen der Teilnehmenden der vergangenen Spiele veröffentlicht \parencite{olympicResults}. Der Vorteil dieser Daten ist, dass sie bereits in weibliche und männliche Teilnehmer*innen unterteilt sind. Alternativ sind auch direkt auf Wikipedia Listen der Teilnehmenden zu finden. \parencite{WikpediaOlympics2016} Diese Listen beinhalten direkte Verlinkungen zu den jeweiligen Seiten der Sportler*innen. Allerdings ist hier nicht mehr ohne Weiteres auszulesen, welchem Gender die Person angehört. Um diese Information zu bekommen müsste der Fließtext auf die verwendeten Pronomen untersucht werden. Auch andere Informationen sind bei Wikipedia nicht mehr so leicht auslesbar wie aus der Liste von \textit{olympic.org}. Besonders sind die Sportler*innen nach dem Alphabet geordnet nicht nach dem erreichten Rang, dieser müsste also ebenfalls aus dem Fließtext ausgelesen werden.
 
-Die Liste der Olympischen Spiele 2016 von Olympic.org enthält strukturierte Daten in Form der folgenden Spalten:
-
-\begin{itemize}
-\item Year 
-\item Sport
-\item Discipline
-\item Event
-\item EventGender
-\item Phase
-\item PhaseXX
-\item Unit
-\item UnitXX
-\item Names
-\item Gender
-\item NOC
-\item Teammembers
-\item Rank
-\item Results
-\item Medal
-\item Adversary
-\item Adversary NOC
-\end{itemize}
-
-Die für uns interessanten Daten hieraus sind die Spalten Sport, Discipline, Event, Names und Gender.
+Die Liste der Olympischen Spiele 2016 von \textit{olympic.org} enthält strukturierte Daten von denen uns speziell nur die Spalten "Sport", "Discipline", "Event", "Names" und "Gender" interessieren.
 Die Länge der Artikel, gemessen an der Anzahl der Wörter, und die Anzahl der Editierungen der einzelnen Artikel müssen erst berechnet beziehungsweise von Wikipedia direkt abgefragt werden. Diese Daten liegen in unstrukturierter Form vor.
 
-\subsection*{Stichproben}
-Da nicht in allen Sportarten Männer und Frauen in vergleichbaren Disziplinen antreten und in manche Disziplinen Teams gegeneinander antreten, wählen wir acht Disziplinen aus unterschiedlichen Sportarten aus, welche unsere Anforderungen erfüllen. Die Anforderungen sind, dass die Disziplinen für Männer und Frauen gleich sind bzw. gleich bezeichnet sind und dass sie keine Teamdisziplinen sind.
-Die ausgewählten Sportarten sind:
+\subsection{Stichproben}
+Da nicht in allen Sportarten Frauen und Männer in vergleichbaren Disziplinen antreten und in manchen Disziplinen Teams gegeneinander antreten, wählen wir 8 Disziplinen aus unterschiedlichen Sportarten aus, welche unsere Anforderungen erfüllen. Die Anforderungen sind, dass die Disziplinen für Frauen und Männer gleich sind bzw. gleich bezeichnet sind und dass sie keine Teamdisziplinen sind.
+
+Die ausgewählten Disziplinen sind:
 \begin{itemize}
-\item Turmspringen (10m)
-\item Bogenschießen
-\item Fechten (épée)
-\item Moderner Fünfkampf
-\item Stabhochsprung
-\item Schwimmen (100m Freestyle)
-\item Radfahren
-\item Athletik (100m)
+\item Turmspringen 10m
+\item Bogenschießen Einzelwettkampf
+\item Fechten Épée Einzelwettkampf
+\item Moderner Fünfkampf Einzelwettkampf
+\item Leichtathletik Stabhochsprung
+\item Schwimmen 100m Freistil
+\item Radsport Straße Einzelwettkampf
+\item Leichtathletik Sprint 100m
 \end{itemize}
 
-Um die Artikel von Wikipedia zu bekommen und von diesen die Länge in Wörtern verwenden wir ein Modul von GitHub Benutzer Jonathan Goldsmith \cite{goldsmith}. Mit diesem Modul und den Titeln der Wikipedia Seiten können die Artikel abgerufen werden. Danach musst nur noch die Wörteranzahl ermittelt werden. Mit Stichproben soll geprüft werden, dass die korrekten Artikel zurück gegeben und gezählt werden.
+Um die Artikel von Wikipedia zu bekommen und von diesen die Länge in Wörtern verwenden wir ein Modul von GitHub Benutzer Jonathan Goldsmith \parencite{GoldsmithWikipedia}. Mit diesem Modul und den Titeln der Wikipedia-Seiten können die Artikel abgerufen werden. Danach muss nur noch die Anzahl der Wörter ermittelt werden. Mit Stichproben soll geprüft werden, dass die korrekten Artikel zurückgegeben und gezählt werden.
 
-Für die Zwischenspeicherung der Daten im Jupyter Notebook verwenden wir Pandas dataFrames. Außerhalb des Programms sind die Daten in CSV-Dateien abgelegt. Für die grafische Darstellung im Notebook verwenden wir außerdem Matplotlib\parencite{matplotlib} und Seaborn\parencite{seaborn}.
+Für die Zwischenspeicherung der Daten im Jupyter Notebook verwenden wir \textit{pandas} Dataframes. Außerhalb des Programms sind die Daten in CSV-Dateien abgelegt. Für die grafische Darstellung im Notebook verwenden wir außerdem \textit{matplotlib.pyplot} und \textit{seaborn}.
 
-\subsection*{Auswertungsmethoden}
+\subsection{Auswertungsmethoden}
+Für die Darstellung und Auswertung der Daten unterscheiden wir nach Gender der Sporler*innen und den Disziplinen.
 
-Mit Histogrammen zu den unterschiedlichen Disziplinen wollen wir die Verteilung der Anzahl der Wörter für männliche und weibliche Sportler vergleichen und gegebenenfalls einen T-Test durchführen. Zur weiteren Untersuchung der Extremwerte, des Mittelwerts und des Median sollen Boxplots und Balkendiagramme zu den verschiedenen Disziplinen erstellt werden.
+\subsubsection{Verteilung der Daten}
+Um ein besseres Verständnis für unsere Daten zu entwickeln wollen wir uns diese zunächst in einem Histogramm anschauen. Das Histogramm trägt auf der X-Achse die Anzahl der Wörter beziehungsweise Editierungen auf und auf der Y-Achse die Häufigkeit, mit der die jeweilige Anzahl vorkam. Dies soll uns zeigen wie die Daten verteilt sind und ob eine Normalverteilung vorliegt.
 
-\subsection*{Data Privacy}
+Mit weiteren Balkendiagrammen wollen wir die Extrem-, Mittel- und Medianwerte darstellen.
 
----------------Aus Prof. Zhangs Skript ------------------
+\subsubsection{Ausreißer}
+Wir gehen davon aus, dass wir einige Ausreißer in unseren Daten haben werden. Sportler wie beispielsweise Usain Bolt werden erwartbar vergleichsweise lange Wikipedia-Artikel aufweisen. Um einen besseren Überblick über die Anzahl und Verteilung der Ausreißer zu bekommen, werden wir die Daten in einem Boxplot und einem Stripplot darstellen. Der Boxplot zeigt außerdem die Quantile. Als Ausreißer werden alle Datenpunkte im Boxplot dargestellt, die außerhalb des Bereiches liegen, in dem 90\% der Daten zu finden sind.
 
-Methodologie / Untersuchung
-    Datenbeschaffung
-    Datenpräparation
-    Exploration/Modell Planung (Ziel: Hypothese)
-    Model-Erstellung (Ziel: Test Hypothese, ggfs. Anpassung des Models)
-    
-    Wie gehen Sie vor und warum? Welche Werkzeuge nutzen Sie?
-§ Datenbeschaffung (Qualität und Quantität der Daten mit
-Darstellung weiterer Quellen / Erhebungsmethoden?)
-» Erhebungsart
-» Stichprobe
-» Auswertungsmethoden
-§ Ethische Kriterien berücksichtigen (vgl. Data Privacy)
-» Missbrauch personenbezogener Daten (Anonymisierung,
-Pseudonymisierung)
+\subsubsection{Signifikanz}
+Sollten unsere Daten normalverteilt sein, werden wir die Signifikanz mit Hilfe des T-Tests untersuchen, andernfalls wollen wir den Mann-Whitney-U-Test verwenden. 
+
+"The Mann-Whitney U test is used to compare differences between two independent groups when the dependent variable is either ordinal or continuous, but not normally distributed." \parencite{LundResearchLtd}
+
 
 \section {Durchführung // Jansen, Flip 558059}
 Ausgehend von der Wikipedia-Überblicksseite \cite{wikiOlympicComp}haben wir rekursiv alle Sportarten sowie auf der untersten Ebene die Links der einzelnen Sportler*innen einer Sportart auf Wikipedia gesammelt und in eine CSV-Datei geschrieben. 
@@ -229,6 +200,80 @@ Um die Wikipedia-Links mit den von uns benötigten Daten der Ergebnistabelle zu 
 Trotzdem konnten wir einige Links nicht automatisiert zuordnen, da es zum einen in den Ergebnistabelle Rechtschreibfehler in den Namen gibt, zum anderen, weil gerade bei Namen aus Sprachgebieten mit nicht-lateinischer Schrift unterschiedliche !!!Konvertierungen!!!
 
 \section {Ergebnisse}
+\subsection{Anzahl der Editierungen // Tumbrägel, Daniela 558529}
+\subsubsection{Verteilung}
+Wie bei der Anzahl der Wörter im zuvorkommenden Abschnitt fällt bei der Betrachtung des Histogramms auf, dass es sich nicht um eine Normalverteilung handelt.
+
+Da die Histogramme der verschiedenen Disziplinen sehr linksbündig sind, wird diese Beobachtung dadurch zusätzlich bestätigt. 
+
+Die folgenden Grafiken zeigen jeweils die Maximal-, Mittel- und Medianwerte sowie die Standardabweichung der Editierungen pro Disziplin. 
+
+Mit Blick auf die Maxima der Editierungen per Disziplin ist erkennbar, dass es durchaus Unterschiede zwischen Frauen und Männern gibt, da insbesondere in den Disziplinen "Turmspringen 10m", "Radsport Straße Einzelwettkampf" und "Leichtathletik Sprint 100m" signifikante Unterschiede zugunsten der Männer sichtbar sind. Allerdings ist dies nur bedingt aussagekräftig, da es sich bei den Maxima um Ausreißer handeln kann, die nicht maßgeblich für die durchschnittliche Verteilung sind. Dies verifizieren wir durch nachfolgende Plots (s. Figure 10).
+
+Das Histogramm, dass den Mittelwert aufführt, zeigt ähnliche Beobachtungen, die jedoch ebenfalls aufgrund von Ausreißern schwer zu interpretieren sind.
+
+Grundsätzlich kann aber festgehalten werden, dass sehr markante Extremwerte primär bei den Männern - mit einem Spitzenwert von 3276 Editierungen - zu finden sind.
+
+Aufgrund der Verteilung der Daten ist der Median hingegen durch die Sortierung der Ergebnisse vergleichsweise aussagekräftig. Dieser visualisiert hier, dass es nur in der Disziplin "Radsport Straße Einzelwettkampf" signifikante Unterschiede bei Frauen und Männern bzgl. der Editierungen der Wikipedia-Artikel gibt.
+
+\begin{table}
+\begin{tabular}{ c|c|c|c|c }
+  Disziplin & Maximum & Mittelwert & Median & Standard Abweichung \\
+  \hline
+  Turmspringen 10m & 405 & 74.535714 & 40.5 & 275.561111 \\
+  Bogenschießen Einzelwettkampf & 321 & 38.171875 & 26.0 & 225.399046 \\
+  Fechten Épée Einzelwettkampf & 204 & 43.297297 & 30.0 & 689.748088 \\
+  Moderner Fünfkampf Einzelwettkampf & 107 & 28.916667 & 18.5 & 148.771754 \\
+  Leichtathletik Stabhochsprung & 396 & 83.281250 & 49.0 & 424.061838\\
+  Schwimmen 100m Freistil & 521 & 109.333333 & 47.0 & 533.158020\\
+  Radsport Straße Einzelwettkampf & 557 & 148.066667 & 97.0 & 984.240138\\
+  Leichtathletik Sprint 100m & 710 & 67.675000 & 41.0 & 487.333815\\
+\end{tabular}
+\caption{\label{tab:table-name}Kennwerte Frauen}
+\end{table}
+
+\begin{table}
+\begin{tabular}{ c|c|c|c|c }
+  Disziplin & Maximum & Mittelwert & Median & Standard Abweichung \\
+  \hline
+  Turmspringen 10m & 2796 & 152.250000 & 33.5 & 961.725893 \\
+  Bogenschießen Einzelwettkampf & 211 & 38.593750 & 26.0 & 136.328090\\
+  Fechten Épée Einzelwettkampf & 138 & 35.297297 & 30.0 & 188.961311 \\
+  Moderner Fünfkampf Einzelwettkampf & 58 & 20.000000 & 13.0 & 139.773521\\
+  Leichtathletik Stabhochsprung & 621 & 68.687500 & 32.5 & 505.014347\\
+  Schwimmen 100m Freistil & 945 & 120.937500 & 44.5 & 564.130686\\
+  Radsport Straße Einzelwettkampf & 2466 & 407.166667 & 233.5 & 1882.713246\\
+  Leichtathletik Sprint 100m & 3277 & 161.387500 & 54.0 & 1262.914988\\
+\end{tabular}
+\caption{\label{tab:table-name}Kennwerte Männer}
+\end{table}
+
+\includegraphics[width=1\textwidth]{figures/editcount_boxplot.png}
+
+\subsubsection{Ausreißer}
+Wie in der Methodik beschrieben, nutzen wir Box- und Stripplots insbesondere zur Visualisierung der Ausreißer in der vorhandenen Datenquelle. Die Abbildungen zeigen jeweils die Männer auf der linken und die Frauen auf der rechten Seite. 
+
+Es ist deutlich erkennbar, dass bei den Männern mehrere sehr hohe Werte aufzufinden sind während es bei den Frauen zwar ebenfalls viele Ausreißer gibt, diese allerdings vergleichsweise niedrig angesiedelt sind. Die Disziplinen "Turmspringen 10m", "Radsport Straße Einzelwettkampf" und  "Leichtathletik Sprint 100m" fallen bei den Männern durch vereinzelte hochwertige Ergebnisse besonders auf. Bei den Frauen ist nur ein vergleichsweise hochwertiger Ausreißer in der Disziplin "Leichtathletik Sprint 100m" zu erkennen, der sich allerdings nur marginal von den restlichen Ausreißern abgrenzt. 
+
+\subsubsection{Signifikanz}
+
+Der Mann-Whitney-U-Test zeigt mit Hilfe der Berechnung des P-Wertes, wie oben bei den Medianwerten bereits angedeutet, dass es größtenteils keine signifikanten Unterschiede zwischen Frauen und Männern gibt. Wie bei der Anzahl der Wörter ist auch bei der Anzahl der Editierungen in 7 von 8 Disziplinen keine Signifikanz zu erkennen.
+
+\begin{tabular}{ c|c|c }
+  Disziplin & P-Value & Signifikanz \\
+  \hline
+  Turmspringen 10m & 0.222952 & nicht signifikant \\
+  Bogenschießen Einzelwettkampf & 0.283641 & nicht signifikant \\
+  Fechten Épée Einzelwettkampf & 0.229373 & nicht signifikant \\
+  Moderner Fünfkampf Einzelwettkampf & 0.095515 & nicht signifikant \\
+  Leichtathletik Stabhochsprung & 0.085362 & nicht signifikant \\
+  Schwimmen 100m Freistil & 0.448976 & nicht signifikant \\
+  Radsport Straße Einzelwettkampf & 0.000242 & signifikant \\
+  Leichtathletik Sprint 100m & 0.013091 & signifikant \\
+\end{tabular}
+
+Die zweite Hypothese ist somit ebenfalls widerlegt. 
+
 
 \section {Diskussion}
 
