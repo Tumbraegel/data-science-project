@@ -1,19 +1,19 @@
 [0] Config.pm:302> INFO - This is Biber 2.11
 [0] Config.pm:305> INFO - Logfile is 'Wikipedia.blg'
-[60] biber-darwin:313> INFO - === Fr Jan 11, 2019, 16:17:44
-[103] Biber.pm:371> INFO - Reading 'Wikipedia.bcf'
-[209] Biber.pm:857> INFO - Found 24 citekeys in bib section 0
-[228] Biber.pm:3976> INFO - Processing section 0
+[56] biber-darwin:313> INFO - === Sa Jan 12, 2019, 14:55:25
+[96] Biber.pm:371> INFO - Reading 'Wikipedia.bcf'
+[208] Biber.pm:857> INFO - Found 27 citekeys in bib section 0
+[224] Biber.pm:3976> INFO - Processing section 0
 [243] Biber.pm:4136> INFO - Looking for bibtex format file 'library.bib' for section 0
-[249] bibtex.pm:1500> INFO - LaTeX decoding ...
-[303] bibtex.pm:1316> INFO - Found BibTeX data source 'library.bib'
-[408] Utils.pm:193> WARN - ISBN '0883-8151' in entry 'Billings2008' is invalid - run biber with '--validate_datamodel' for details.
-[426] Utils.pm:193> WARN - ISBN '01937235' in entry 'Jones1999' is invalid - run biber with '--validate_datamodel' for details.
-[444] Utils.pm:193> WARN - BibTeX subsystem: /var/folders/j1/v6l5rhnx59xdxx5b6mrxbj2w0000gn/T/hgzNSBA4AA/library.bib_1422.utf8, line 6, warning: 176 characters of junk seen at toplevel
-[478] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[478] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[479] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
-[479] Biber.pm:3810> INFO - No sort tailoring available for locale 'de-DE'
-[512] bbl.pm:617> INFO - Writing 'Wikipedia.bbl' with encoding 'UTF-8'
-[525] bbl.pm:720> INFO - Output to Wikipedia.bbl
-[525] Biber.pm:110> INFO - WARNINGS: 3
+[248] bibtex.pm:1500> INFO - LaTeX decoding ...
+[310] bibtex.pm:1316> INFO - Found BibTeX data source 'library.bib'
+[424] Utils.pm:193> WARN - ISBN '0883-8151' in entry 'Billings2008' is invalid - run biber with '--validate_datamodel' for details.
+[444] Utils.pm:193> WARN - ISBN '01937235' in entry 'Jones1999' is invalid - run biber with '--validate_datamodel' for details.
+[463] Utils.pm:193> WARN - BibTeX subsystem: /var/folders/j1/v6l5rhnx59xdxx5b6mrxbj2w0000gn/T/fnslEhYO5v/library.bib_1795.utf8, line 6, warning: 176 characters of junk seen at toplevel
+[503] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[503] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[503] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[503] Biber.pm:3810> INFO - No sort tailoring available for locale 'de-DE'
+[540] bbl.pm:617> INFO - Writing 'Wikipedia.bbl' with encoding 'UTF-8'
+[552] bbl.pm:720> INFO - Output to Wikipedia.bbl
+[553] Biber.pm:110> INFO - WARNINGS: 3

@@ -47,6 +47,38 @@
       \verb https://www.alexa.com/topsites
       \endverb
     \endentry
+    \entry{Bazely2018}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=7a86c7f88b8feb1ce8a828ef661b4eca}{%
+           family={Bazely},
+           familyi={B\bibinitperiod},
+           given={Dawn},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{7a86c7f88b8feb1ce8a828ef661b4eca}
+      \strng{fullhash}{7a86c7f88b8feb1ce8a828ef661b4eca}
+      \strng{bibnamehash}{7a86c7f88b8feb1ce8a828ef661b4eca}
+      \strng{authorbibnamehash}{7a86c7f88b8feb1ce8a828ef661b4eca}
+      \strng{authornamehash}{7a86c7f88b8feb1ce8a828ef661b4eca}
+      \strng{authorfullhash}{7a86c7f88b8feb1ce8a828ef661b4eca}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Washington Post}
+      \field{title}{{Why Nobel winner Donna Strickland didn't have a Wikipedia page}}
+      \field{urlday}{10}
+      \field{urlmonth}{1}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb Why Nobel winner Donna Strickland didn't have a Wikipedia page
+      \endverb
+      \verb{url}
+      \verb Why%20Nobel%20winner%20Donna%20Strickland%20didn't%20have%20a%20Wikipedia%20page
+      \endverb
+    \endentry
     \entry{Billings2008}{article}{}
       \name{author}{2}{}{%
         {{hash=61c46dbc0f7eba5cf82ae0395517f255}{%
@@ -336,6 +368,35 @@
       \verb http://journals.sagepub.com/doi/10.1177/0193723599232005
       \endverb
     \endentry
+    \entry{LeylandCecco}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=25e03593ef43454f2db7a52206d1c34e}{%
+           family={{Leyland Cecco}},
+           familyi={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{25e03593ef43454f2db7a52206d1c34e}
+      \strng{fullhash}{25e03593ef43454f2db7a52206d1c34e}
+      \strng{bibnamehash}{25e03593ef43454f2db7a52206d1c34e}
+      \strng{authorbibnamehash}{25e03593ef43454f2db7a52206d1c34e}
+      \strng{authornamehash}{25e03593ef43454f2db7a52206d1c34e}
+      \strng{authorfullhash}{25e03593ef43454f2db7a52206d1c34e}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Guardian}
+      \field{title}{{Female Nobel prize winner deemed not important enough for Wikipedia entry}}
+      \field{urlday}{10}
+      \field{urlmonth}{1}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.theguardian.com/science/2018/oct/03/donna-strickland-nobel-physics-prize-wikipedia-denied
+      \endverb
+      \verb{url}
+      \verb https://www.theguardian.com/science/2018/oct/03/donna-strickland-nobel-physics-prize-wikipedia-denied
+      \endverb
+    \endentry
     \entry{matplotlib}{misc}{}
       \name{author}{1}{}{%
         {{hash=1587383cf8c21507d06fb51ef7ddda0c}{%
@@ -380,7 +441,7 @@
       \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{seaborn - statistical data visualization}
+      \field{title}{{Seaborn - Statistical data visualization}}
       \field{urlday}{9}
       \field{urlmonth}{1}
       \field{urlyear}{2019}
@@ -390,34 +451,6 @@
       \endverb
       \verb{url}
       \verb https://seaborn.pydata.org/
-      \endverb
-    \endentry
-    \entry{nobelprize}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=5a006a9bc1bfd485a2b8c541a1a3f0d0}{%
-           family={{Nobel Media AB}},
-           familyi={N\bibinitperiod}}}%
-      }
-      \strng{namehash}{5a006a9bc1bfd485a2b8c541a1a3f0d0}
-      \strng{fullhash}{5a006a9bc1bfd485a2b8c541a1a3f0d0}
-      \strng{bibnamehash}{5a006a9bc1bfd485a2b8c541a1a3f0d0}
-      \strng{authorbibnamehash}{5a006a9bc1bfd485a2b8c541a1a3f0d0}
-      \strng{authornamehash}{5a006a9bc1bfd485a2b8c541a1a3f0d0}
-      \strng{authorfullhash}{5a006a9bc1bfd485a2b8c541a1a3f0d0}
-      \field{sortinit}{N}
-      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{The Nobel Prize in Physics 2018}}
-      \field{urlday}{9}
-      \field{urlmonth}{1}
-      \field{urlyear}{2019}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.nobelprize.org/prizes/physics/2018/summary/
-      \endverb
-      \verb{url}
-      \verb https://www.nobelprize.org/prizes/physics/2018/summary/
       \endverb
     \endentry
     \entry{olympicResults}{misc}{}
@@ -448,6 +481,35 @@
       \verb https://www.olympic.org/olympic-results
       \endverb
     \endentry
+    \entry{PoppyNoor}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c45db7775ba0fdedb6a8f28eaf97a79b}{%
+           family={{Poppy Noor}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{c45db7775ba0fdedb6a8f28eaf97a79b}
+      \strng{fullhash}{c45db7775ba0fdedb6a8f28eaf97a79b}
+      \strng{bibnamehash}{c45db7775ba0fdedb6a8f28eaf97a79b}
+      \strng{authorbibnamehash}{c45db7775ba0fdedb6a8f28eaf97a79b}
+      \strng{authornamehash}{c45db7775ba0fdedb6a8f28eaf97a79b}
+      \strng{authorfullhash}{c45db7775ba0fdedb6a8f28eaf97a79b}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Guardian}
+      \field{title}{{Wikipedia biases}}
+      \field{urlday}{12}
+      \field{urlmonth}{1}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.theguardian.com/technology/2018/jul/29/the-five-wikipedia-biases-pro-western-male-dominated
+      \endverb
+      \verb{url}
+      \verb https://www.theguardian.com/technology/2018/jul/29/the-five-wikipedia-biases-pro-western-male-dominated
+      \endverb
+    \endentry
     \entry{soccerIncomeWomen}{misc}{}
       \name{author}{1}{}{%
         {{hash=62182ca58a739daa8ddd8a48b7b19abb}{%
@@ -474,6 +536,35 @@
       \endverb
       \verb{url}
       \verb https://de.statista.com/statistik/daten/studie/819734/umfrage/spielergehaelter-in-frauen-fussballligen/
+      \endverb
+    \endentry
+    \entry{IOCRules}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=69b929ae473ed732d5fb8e0a55a8dc8d}{%
+           family={{The Guardian}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{69b929ae473ed732d5fb8e0a55a8dc8d}
+      \strng{fullhash}{69b929ae473ed732d5fb8e0a55a8dc8d}
+      \strng{bibnamehash}{69b929ae473ed732d5fb8e0a55a8dc8d}
+      \strng{authorbibnamehash}{69b929ae473ed732d5fb8e0a55a8dc8d}
+      \strng{authornamehash}{69b929ae473ed732d5fb8e0a55a8dc8d}
+      \strng{authorfullhash}{69b929ae473ed732d5fb8e0a55a8dc8d}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{IOC rules transgender athletes can take part in Olympics without surgery}}
+      \field{urlday}{12}
+      \field{urlmonth}{1}
+      \field{urlyear}{2019}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.theguardian.com/sport/2016/jan/25/ioc-rules-transgender-athletes-can-take-part-in-olympics-without-surgery
+      \endverb
+      \verb{url}
+      \verb https://www.theguardian.com/sport/2016/jan/25/ioc-rules-transgender-athletes-can-take-part-in-olympics-without-surgery
       \endverb
     \endentry
     \entry{Trolan2013}{article}{}
