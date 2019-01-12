@@ -18,10 +18,10 @@
 
 
 \refsection{0}
-  \datalist[entry]{nty/global//global/global}
+  \datalist[entry]{apa/global//global/global}
     \entry{Alexa2019}{misc}{}
       \name{author}{1}{}{%
-        {{hash=4fb213d5c154b9509af172e35432eb1a}{%
+        {{uniquename=0,uniquepart=base,hash=4fb213d5c154b9509af172e35432eb1a}{%
            family={{Alexa Internet Inc.}},
            familyi={A\bibinitperiod}}}%
       }
@@ -33,6 +33,8 @@
       \strng{authorfullhash}{4fb213d5c154b9509af172e35432eb1a}
       \field{sortinit}{A}
       \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Alexa Top 500 Global Sites}}
@@ -49,11 +51,12 @@
     \endentry
     \entry{Bazely2018}{misc}{}
       \name{author}{1}{}{%
-        {{hash=7a86c7f88b8feb1ce8a828ef661b4eca}{%
+        {{uniquename=0,uniquepart=base,hash=7a86c7f88b8feb1ce8a828ef661b4eca}{%
            family={Bazely},
            familyi={B\bibinitperiod},
            given={Dawn},
-           giveni={D\bibinitperiod}}}%
+           giveni={D\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{7a86c7f88b8feb1ce8a828ef661b4eca}
       \strng{fullhash}{7a86c7f88b8feb1ce8a828ef661b4eca}
@@ -63,6 +66,9 @@
       \strng{authorfullhash}{7a86c7f88b8feb1ce8a828ef661b4eca}
       \field{sortinit}{B}
       \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Washington Post}
@@ -81,16 +87,18 @@
     \endentry
     \entry{Billings2008}{article}{}
       \name{author}{2}{}{%
-        {{hash=61c46dbc0f7eba5cf82ae0395517f255}{%
+        {{uniquename=0,uniquepart=base,hash=61c46dbc0f7eba5cf82ae0395517f255}{%
            family={Billings},
            familyi={B\bibinitperiod},
            given={Andrew\bibnamedelima C.},
-           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=5508e0c2a0dc6161e242e74fc2cc6729}{%
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5508e0c2a0dc6161e242e74fc2cc6729}{%
            family={Angelini},
            familyi={A\bibinitperiod},
            given={James\bibnamedelima R.},
-           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{303cd4ab31f022e1ea557fbf9bc07826}
       \strng{fullhash}{303cd4ab31f022e1ea557fbf9bc07826}
@@ -100,11 +108,12 @@
       \strng{authorfullhash}{303cd4ab31f022e1ea557fbf9bc07826}
       \field{sortinit}{B}
       \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{One of the few areas of sports media in which women athletes receive substantial exposure is within the Olympic telecast. This study explores gender differences within 74.5 hours of the NBC's 2008 prime time Olympic telecasts in terms of (a) raw exposure (clock-time devoted to each gender) and (b) sportscaster dialogue (descriptions of success, failure, personality, and personality ascribed to male and female athletes). Results indicate that the gap between men and women's sports clock-time is widening (an 8.4{\%} differential compared to a 4.6{\%} differential in the 2004 Athens Games). In addition, seven significant dialogue differences were detected between male and female athletes.}
-      \field{isbn}{0883-8151}
-      \field{issn}{0883-8151}
       \field{journaltitle}{Journal of Broadcasting {\&} Electronic Media}
       \field{number}{October 2011}
       \field{title}{{Journal of Broadcasting {\&} Gendered Profiles of Olympic History : Sportscaster Dialogue in the 2008 Beijing Olympics}}
@@ -127,7 +136,7 @@
     \endentry
     \entry{goldsmith}{misc}{}
       \name{author}{1}{}{%
-        {{hash=d5f4f40a0e9312ec91fca3f901225156}{%
+        {{uniquename=0,uniquepart=base,hash=d5f4f40a0e9312ec91fca3f901225156}{%
            family={GitHub.com},
            familyi={G\bibinitperiod}}}%
       }
@@ -139,6 +148,8 @@
       \strng{authorfullhash}{d5f4f40a0e9312ec91fca3f901225156}
       \field{sortinit}{G}
       \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{GitHub - goldsmith/Wikipedia: A Pythonic wrapper for the Wikipedia API}}
@@ -155,30 +166,36 @@
     \endentry
     \entry{GraellsGarrido2015}{article}{}
       \name{author}{3}{}{%
-        {{hash=2f528c448e0c43ce79bc30cfc3b6712b}{%
+        {{uniquename=0,uniquepart=base,hash=2f528c448e0c43ce79bc30cfc3b6712b}{%
            family={Graells-Garrido},
            familyi={G\bibinithyphendelim G\bibinitperiod},
            given={Eduardo},
-           giveni={E\bibinitperiod}}}%
-        {{hash=0b95e9202a90df308ce5420a514c041c}{%
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=0b95e9202a90df308ce5420a514c041c}{%
            family={Lalmas},
            familyi={L\bibinitperiod},
            given={Mounia},
-           giveni={M\bibinitperiod}}}%
-        {{hash=3e3991fca812b39b0448729fca507968}{%
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3e3991fca812b39b0448729fca507968}{%
            family={Menczer},
            familyi={M\bibinitperiod},
            given={Filippo},
-           giveni={F\bibinitperiod}}}%
+           giveni={F\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{67799069a4d81e547d3b3208d5814cbb}
+      \strng{namehash}{ce6b4621181dd99cc449aa59e8c71e86}
       \strng{fullhash}{67799069a4d81e547d3b3208d5814cbb}
       \strng{bibnamehash}{67799069a4d81e547d3b3208d5814cbb}
       \strng{authorbibnamehash}{67799069a4d81e547d3b3208d5814cbb}
-      \strng{authornamehash}{67799069a4d81e547d3b3208d5814cbb}
+      \strng{authornamehash}{ce6b4621181dd99cc449aa59e8c71e86}
       \strng{authorfullhash}{67799069a4d81e547d3b3208d5814cbb}
       \field{sortinit}{G}
       \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Contributing to history has never been as easy as it is today. Anyone with access to the Web is able to play a part on Wikipedia, an open and free encyclopedia. Wikipedia, available in many languages, is one of the most visited websites in the world and arguably one of the primary sources of knowledge on the Web. However, not everyone is contributing to Wikipedia from a diversity point of view; several groups are severely underrepresented. One of those groups is women, who make up approximately 16{\%} of the current contributor community, meaning that most of the content is written by men. In addition, although there are specific guidelines of verifiability, notability, and neutral point of view that must be adhered by Wikipedia content, these guidelines are supervised and enforced by men. In this paper, we propose that gender bias is not about participation and representation only, but also about characterization of women. We approach the analysis of gender bias by defining a methodology for comparing the characterizations of men and women in biographies in three aspects: meta-data, language, and network structure. Our results show that, indeed, there are differences in characterization and structure. Some of these differences are reflected from the off-line world documented by Wikipedia, but other differences can be attributed to gender bias in Wikipedia content. We contextualize these differences in feminist theory and discuss their implications for Wikipedia policy.}
@@ -205,11 +222,12 @@
     \endentry
     \entry{Harris2005}{article}{}
       \name{author}{1}{}{%
-        {{hash=a7ca59d23516b64d130f48574dd0bc45}{%
+        {{uniquename=1,uniquepart=given,hash=a7ca59d23516b64d130f48574dd0bc45}{%
            family={Harris},
            familyi={H\bibinitperiod},
            given={John},
-           giveni={J\bibinitperiod}}}%
+           giveni={J\bibinitperiod},
+           givenun=1}}%
       }
       \list{publisher}{1}{%
         {Sage PublicationsSage CA: Thousand Oaks, CA}%
@@ -222,6 +240,8 @@
       \strng{authorfullhash}{a7ca59d23516b64d130f48574dd0bc45}
       \field{sortinit}{H}
       \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The following article offers an insight into the experiences of female football players at a college of higher education in the south of England. Its principal focus is the image of the game and, in particular, how the women themselves interpret and define their involvement in the sport. Using an interpretive, inductive approach, the study highlights the struggles of heterosexual women in explaining and making sense of their participation in a traditionally male activity. Because of the game's perceived association to lesbianism, anumberofthefootballplayershavetomakeexplicittheirownsexualityand some embark on a process of identity management. The study explores the complex relationship between women and football and provides an alternative insight into the game and the people who play it.}
@@ -246,11 +266,12 @@
     \endentry
     \entry{Harris2015}{article}{}
       \name{author}{1}{}{%
-        {{hash=79125ae2d7ede993ffa34b83c6710306}{%
+        {{uniquename=1,uniquepart=given,hash=79125ae2d7ede993ffa34b83c6710306}{%
            family={Harris},
            familyi={H\bibinitperiod},
            given={Nick},
-           giveni={N\bibinitperiod}}}%
+           giveni={N\bibinitperiod},
+           givenun=1}}%
       }
       \strng{namehash}{79125ae2d7ede993ffa34b83c6710306}
       \strng{fullhash}{79125ae2d7ede993ffa34b83c6710306}
@@ -260,6 +281,8 @@
       \strng{authorfullhash}{79125ae2d7ede993ffa34b83c6710306}
       \field{sortinit}{H}
       \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Global Sports Salaries Survey 2015}}
@@ -276,16 +299,18 @@
     \endentry
     \entry{Hill2013}{article}{}
       \name{author}{2}{}{%
-        {{hash=54d1e03f6ef8fd73defc01880214ac9f}{%
+        {{uniquename=0,uniquepart=base,hash=54d1e03f6ef8fd73defc01880214ac9f}{%
            family={Hill},
            familyi={H\bibinitperiod},
            given={Benjamin\bibnamedelima Mako},
-           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=88b182371413e7f1539db5ca8803306a}{%
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=88b182371413e7f1539db5ca8803306a}{%
            family={Shaw},
            familyi={S\bibinitperiod},
            given={Aaron},
-           giveni={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{068b50482923ecbd2dfe260fe4caf397}
       \strng{fullhash}{068b50482923ecbd2dfe260fe4caf397}
@@ -295,6 +320,9 @@
       \strng{authorfullhash}{068b50482923ecbd2dfe260fe4caf397}
       \field{sortinit}{H}
       \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Opt-in surveys are the most widespread method used to study participation in online communities, but produce biased results in the absence of adjustments for non-response. A 2008 survey conducted by the Wikimedia Foundation and United Nations University at Maastricht is the source of a frequently cited statistic that less than 13{\%} of Wikipedia contributors are female. However, the same study suggested that only 39.9{\%} of Wikipedia readers in the US were female - a finding contradicted by a representative survey of American adults by the Pew Research Center conducted less than two months later. Combining these two datasets through an application and extension of a propensity score estimation technique used to model survey non-response bias, we construct revised estimates, contingent on explicit assumptions, for several of the Wikimedia Foundation and United Nations University at Maastricht claims about Wikipedia editors. We estimate that the proportion of female US adult editors was 27.5{\%} higher than the original study reported (22.7{\%}, versus 17.8{\%}), and that the total proportion of female editors was 26.8{\%} higher (16.1{\%}, versus 12.7{\%}).}
@@ -315,30 +343,36 @@
     \endentry
     \entry{Jones1999}{misc}{}
       \name{author}{3}{}{%
-        {{hash=6216d1900d7c287ceaded0ca650d4fbc}{%
+        {{uniquename=0,uniquepart=base,hash=6216d1900d7c287ceaded0ca650d4fbc}{%
            family={Jones},
            familyi={J\bibinitperiod},
            given={Ray},
-           giveni={R\bibinitperiod}}}%
-        {{hash=95f59394f81c5984ad3032cbc6de10ff}{%
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=95f59394f81c5984ad3032cbc6de10ff}{%
            family={Murrell},
            familyi={M\bibinitperiod},
            given={Audrey\bibnamedelima J.},
-           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=05504cfba04d35d7e17ec0cfc9b48a78}{%
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=05504cfba04d35d7e17ec0cfc9b48a78}{%
            family={Jackson},
            familyi={J\bibinitperiod},
            given={Jennifer},
-           giveni={J\bibinitperiod}}}%
+           giveni={J\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{ec23c6da3fe68c64a1815914034d91ee}
+      \strng{namehash}{28cc49a6eea54937cc0533874da875a1}
       \strng{fullhash}{ec23c6da3fe68c64a1815914034d91ee}
       \strng{bibnamehash}{ec23c6da3fe68c64a1815914034d91ee}
       \strng{authorbibnamehash}{ec23c6da3fe68c64a1815914034d91ee}
-      \strng{authornamehash}{ec23c6da3fe68c64a1815914034d91ee}
+      \strng{authornamehash}{28cc49a6eea54937cc0533874da875a1}
       \strng{authorfullhash}{ec23c6da3fe68c64a1815914034d91ee}
       \field{sortinit}{J}
       \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{To examine how descriptions of the performance of female athletes are likely to reflect dominant beliefs about gender in society, 769 passages from the print media describing gold medal winning contests for four U.S. womens teams in the 1996 Olympics (basketball, gymnastics, soccer, and softball) and the U.S. womens hockey team in the 1998 Olympics were subjected to content analysis. The sports analyzed fall under the categories of Matteos study classifying the gender appropriateness of sport (masculine, feminine, and neutral). Two dimensions were examined for each passage: task relevance and use of gender stereotypes. Consistent with our expectations, female athletes in male sports were described by the print media using frequent male-to-female comparisons and comments that had little to do with sports or the athletes performance. Print media coverage of female athletes in female sports focused on performance while reinforcing female stereotypes. Implications of the images of female athletes portrayed by the print media are discussed.}
@@ -370,7 +404,7 @@
     \endentry
     \entry{LeylandCecco}{misc}{}
       \name{author}{1}{}{%
-        {{hash=25e03593ef43454f2db7a52206d1c34e}{%
+        {{uniquename=0,uniquepart=base,hash=25e03593ef43454f2db7a52206d1c34e}{%
            family={{Leyland Cecco}},
            familyi={L\bibinitperiod}}}%
       }
@@ -382,6 +416,8 @@
       \strng{authorfullhash}{25e03593ef43454f2db7a52206d1c34e}
       \field{sortinit}{L}
       \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{The Guardian}
@@ -397,9 +433,28 @@
       \verb https://www.theguardian.com/science/2018/oct/03/donna-strickland-nobel-physics-prize-wikipedia-denied
       \endverb
     \endentry
+    \entry{lxml}{misc}{}
+      \field{sortinit}{l}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{title}{{lxml - Processing XML and HTML with Python}}
+      \field{urlday}{12}
+      \field{urlmonth}{1}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://lxml.de/
+      \endverb
+      \verb{url}
+      \verb https://lxml.de/
+      \endverb
+    \endentry
     \entry{matplotlib}{misc}{}
       \name{author}{1}{}{%
-        {{hash=1587383cf8c21507d06fb51ef7ddda0c}{%
+        {{uniquename=0,uniquepart=base,hash=1587383cf8c21507d06fb51ef7ddda0c}{%
            family={Matplotlib},
            familyi={M\bibinitperiod}}}%
       }
@@ -411,6 +466,8 @@
       \strng{authorfullhash}{1587383cf8c21507d06fb51ef7ddda0c}
       \field{sortinit}{M}
       \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Matplotlib: Python plotting}}
@@ -427,7 +484,7 @@
     \endentry
     \entry{seaborn}{misc}{}
       \name{author}{1}{}{%
-        {{hash=d709b59d5549f8e4714e5640cfbc56bb}{%
+        {{uniquename=0,uniquepart=base,hash=d709b59d5549f8e4714e5640cfbc56bb}{%
            family={{Michael Waskom}},
            familyi={M\bibinitperiod}}}%
       }
@@ -439,6 +496,8 @@
       \strng{authorfullhash}{d709b59d5549f8e4714e5640cfbc56bb}
       \field{sortinit}{M}
       \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Seaborn - Statistical data visualization}}
@@ -453,9 +512,41 @@
       \verb https://seaborn.pydata.org/
       \endverb
     \endentry
+    \entry{nobelprize}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=5a006a9bc1bfd485a2b8c541a1a3f0d0}{%
+           family={{Nobel Media AB}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{5a006a9bc1bfd485a2b8c541a1a3f0d0}
+      \strng{fullhash}{5a006a9bc1bfd485a2b8c541a1a3f0d0}
+      \strng{bibnamehash}{5a006a9bc1bfd485a2b8c541a1a3f0d0}
+      \strng{authorbibnamehash}{5a006a9bc1bfd485a2b8c541a1a3f0d0}
+      \strng{authornamehash}{5a006a9bc1bfd485a2b8c541a1a3f0d0}
+      \strng{authorfullhash}{5a006a9bc1bfd485a2b8c541a1a3f0d0}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{The Nobel Prize in Physics 2018}}
+      \field{urlday}{9}
+      \field{urlmonth}{1}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.nobelprize.org/prizes/physics/2018/summary/
+      \endverb
+      \verb{url}
+      \verb https://www.nobelprize.org/prizes/physics/2018/summary/
+      \endverb
+    \endentry
     \entry{olympicResults}{misc}{}
       \name{author}{1}{}{%
-        {{hash=5810925139b8c90fcb3e292fe1a35603}{%
+        {{uniquename=0,uniquepart=base,hash=5810925139b8c90fcb3e292fe1a35603}{%
            family={Olympic.org},
            familyi={O\bibinitperiod}}}%
       }
@@ -467,6 +558,8 @@
       \strng{authorfullhash}{5810925139b8c90fcb3e292fe1a35603}
       \field{sortinit}{O}
       \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Olympic Results, Gold Medalists and Official Records}}
@@ -483,7 +576,7 @@
     \endentry
     \entry{PoppyNoor}{misc}{}
       \name{author}{1}{}{%
-        {{hash=c45db7775ba0fdedb6a8f28eaf97a79b}{%
+        {{uniquename=0,uniquepart=base,hash=c45db7775ba0fdedb6a8f28eaf97a79b}{%
            family={{Poppy Noor}},
            familyi={P\bibinitperiod}}}%
       }
@@ -495,6 +588,8 @@
       \strng{authorfullhash}{c45db7775ba0fdedb6a8f28eaf97a79b}
       \field{sortinit}{P}
       \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{The Guardian}
@@ -512,7 +607,7 @@
     \endentry
     \entry{soccerIncomeWomen}{misc}{}
       \name{author}{1}{}{%
-        {{hash=62182ca58a739daa8ddd8a48b7b19abb}{%
+        {{uniquename=0,uniquepart=base,hash=62182ca58a739daa8ddd8a48b7b19abb}{%
            family={Statista},
            familyi={S\bibinitperiod}}}%
       }
@@ -524,6 +619,8 @@
       \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
       \field{sortinit}{S}
       \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Spielergeh{ä}lter in Frauen-Fu{ß}ballligen Saison 2017/2018}}
@@ -538,9 +635,44 @@
       \verb https://de.statista.com/statistik/daten/studie/819734/umfrage/spielergehaelter-in-frauen-fussballligen/
       \endverb
     \endentry
+    \entry{Sulzberger2019}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d0e15fa35f7832c963e7bbd378ee8224}{%
+           family={Sulzberger},
+           familyi={S\bibinitperiod},
+           given={Carsten},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d0e15fa35f7832c963e7bbd378ee8224}
+      \strng{fullhash}{d0e15fa35f7832c963e7bbd378ee8224}
+      \strng{bibnamehash}{d0e15fa35f7832c963e7bbd378ee8224}
+      \strng{authorbibnamehash}{d0e15fa35f7832c963e7bbd378ee8224}
+      \strng{authornamehash}{d0e15fa35f7832c963e7bbd378ee8224}
+      \strng{authorfullhash}{d0e15fa35f7832c963e7bbd378ee8224}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Effiziente Levenshtein-Implementierungsans{ä}tze des Levenshtein}}
+      \field{urlday}{12}
+      \field{urlmonth}{1}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.levenshtein.de/levenshtein{\_}imprint.htm
+      \endverb
+      \verb{url}
+      \verb http://www.levenshtein.de/levenshtein%7B%5C_%7Dimprint.htm
+      \endverb
+    \endentry
     \entry{IOCRules}{misc}{}
       \name{author}{1}{}{%
-        {{hash=69b929ae473ed732d5fb8e0a55a8dc8d}{%
+        {{uniquename=0,uniquepart=base,hash=69b929ae473ed732d5fb8e0a55a8dc8d}{%
            family={{The Guardian}},
            familyi={T\bibinitperiod}}}%
       }
@@ -552,6 +684,9 @@
       \strng{authorfullhash}{69b929ae473ed732d5fb8e0a55a8dc8d}
       \field{sortinit}{T}
       \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{IOC rules transgender athletes can take part in Olympics without surgery}}
@@ -569,11 +704,12 @@
     \endentry
     \entry{Trolan2013}{article}{}
       \name{author}{1}{}{%
-        {{hash=45c505acc8e07d0da12d6da2f0374b08}{%
+        {{uniquename=0,uniquepart=base,hash=45c505acc8e07d0da12d6da2f0374b08}{%
            family={Trolan},
            familyi={T\bibinitperiod},
            given={Eoin\bibnamedelima J.},
-           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
       }
       \list{publisher}{1}{%
         {Elsevier B.V.}%
@@ -586,6 +722,9 @@
       \strng{authorfullhash}{45c505acc8e07d0da12d6da2f0374b08}
       \field{sortinit}{T}
       \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Despite the prolific advancement of women sports and female athletes and the potential for strong women to be positive role models, the portrayal of these athletes in the media has been subjected to objectification and invisibility compared to male athletes or men's sports. Though there has been tremendous growth and popularity of women sports, female athletes are still considered inferior to male athletes and that compared to male athletes there is still an obsession with the body of female athletes rather than on her athletic skills. This inequality within sport will continue to exist until the media re-examines it portrayal of female athletes.}
@@ -616,11 +755,12 @@
     \endentry
     \entry{Vincent2004}{article}{}
       \name{author}{1}{}{%
-        {{hash=6a67c14dc8b1042c6111d76fea46d956}{%
+        {{uniquename=0,uniquepart=base,hash=6a67c14dc8b1042c6111d76fea46d956}{%
            family={Vincent},
            familyi={V\bibinitperiod},
            given={John},
-           giveni={J\bibinitperiod}}}%
+           giveni={J\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{6a67c14dc8b1042c6111d76fea46d956}
       \strng{fullhash}{6a67c14dc8b1042c6111d76fea46d956}
@@ -630,6 +770,9 @@
       \strng{authorfullhash}{6a67c14dc8b1042c6111d76fea46d956}
       \field{sortinit}{V}
       \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0741-1235}
@@ -652,35 +795,42 @@
     \endentry
     \entry{Wagner2015}{misc}{}
       \name{author}{4}{}{%
-        {{hash=e271fd0272eaf5312a04165f2b0b21c0}{%
+        {{uniquename=0,uniquepart=base,hash=e271fd0272eaf5312a04165f2b0b21c0}{%
            family={Wagner},
            familyi={W\bibinitperiod},
            given={Claudia},
-           giveni={C\bibinitperiod}}}%
-        {{hash=390131310e5498d8c5fa5414afdc5f26}{%
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=390131310e5498d8c5fa5414afdc5f26}{%
            family={Garcia},
            familyi={G\bibinitperiod},
            given={David},
-           giveni={D\bibinitperiod}}}%
-        {{hash=461286c6db4396440cb14906a16cacb5}{%
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=461286c6db4396440cb14906a16cacb5}{%
            family={Jadidi},
            familyi={J\bibinitperiod},
            given={Mohsen},
-           giveni={M\bibinitperiod}}}%
-        {{hash=a886f243c9ad0d58b6297daa714e4d89}{%
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a886f243c9ad0d58b6297daa714e4d89}{%
            family={Strohmaier},
            familyi={S\bibinitperiod},
            given={Markus},
-           giveni={M\bibinitperiod}}}%
+           giveni={M\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{c2e10db8d4b6d262624d3a9ec672fc4e}
       \strng{fullhash}{c2be80a716dbc898c2ac6379da9d4d44}
-      \strng{bibnamehash}{c2e10db8d4b6d262624d3a9ec672fc4e}
-      \strng{authorbibnamehash}{c2e10db8d4b6d262624d3a9ec672fc4e}
+      \strng{bibnamehash}{c2be80a716dbc898c2ac6379da9d4d44}
+      \strng{authorbibnamehash}{c2be80a716dbc898c2ac6379da9d4d44}
       \strng{authornamehash}{c2e10db8d4b6d262624d3a9ec672fc4e}
       \strng{authorfullhash}{c2be80a716dbc898c2ac6379da9d4d44}
       \field{sortinit}{W}
       \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Wikipedia is a community-created encyclopedia that contains information about notable people from different countries, epochs and disciplines and aims to document the world's knowledge from a neutral point of view. However, the narrow diversity of the Wikipedia editor community has the potential to introduce systemic biases such as gender biases into the content of Wikipedia. In this paper we aim to tackle a sub problem of this larger challenge by presenting and applying a computational method for assessing gender bias on Wikipedia along multiple dimensions. We find that while women on Wikipedia are covered and featured well in many Wikipedia language editions, the way women are portrayed starkly differs from the way men are portrayed. We hope our work contributes to increasing awareness about gender biases online, and in particular to raising attention to the different levels in which gender biases can manifest themselves on the web.}
@@ -706,7 +856,7 @@
     \endentry
     \entry{wikimediaReport}{misc}{}
       \name{author}{1}{}{%
-        {{hash=0cf2ab78d0d55e7d90fed54e36449dd4}{%
+        {{uniquename=0,uniquepart=base,hash=0cf2ab78d0d55e7d90fed54e36449dd4}{%
            family={{Wikimedia Foundation}},
            familyi={W\bibinitperiod}}}%
       }
@@ -718,6 +868,8 @@
       \strng{authorfullhash}{0cf2ab78d0d55e7d90fed54e36449dd4}
       \field{sortinit}{W}
       \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradate}{1}
+      \field{labeldatesource}{nodate}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Community Engagement Insights 2018 Report}}
@@ -735,7 +887,7 @@
     \endentry
     \entry{wikipediaTimeline}{misc}{}
       \name{author}{1}{}{%
-        {{hash=0cf2ab78d0d55e7d90fed54e36449dd4}{%
+        {{uniquename=0,uniquepart=base,hash=0cf2ab78d0d55e7d90fed54e36449dd4}{%
            family={{Wikimedia Foundation}},
            familyi={W\bibinitperiod}}}%
       }
@@ -747,6 +899,8 @@
       \strng{authorfullhash}{0cf2ab78d0d55e7d90fed54e36449dd4}
       \field{sortinit}{W}
       \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradate}{2}
+      \field{labeldatesource}{nodate}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Wikipedia Timeline}}
@@ -763,7 +917,7 @@
     \endentry
     \entry{wikiOlympicComp}{misc}{}
       \name{author}{1}{}{%
-        {{hash=9c677286866aad38f8e9b660f5411814}{%
+        {{uniquename=0,uniquepart=base,hash=9c677286866aad38f8e9b660f5411814}{%
            family={Wikipedia},
            familyi={W\bibinitperiod}}}%
       }
@@ -775,6 +929,8 @@
       \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
       \field{sortinit}{W}
       \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradate}{1}
+      \field{labeldatesource}{nodate}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Competitors at the 2016 Summer Olympics}}
@@ -791,7 +947,7 @@
     \endentry
     \entry{stricklandWiki}{misc}{}
       \name{author}{1}{}{%
-        {{hash=9c677286866aad38f8e9b660f5411814}{%
+        {{uniquename=0,uniquepart=base,hash=9c677286866aad38f8e9b660f5411814}{%
            family={Wikipedia},
            familyi={W\bibinitperiod}}}%
       }
@@ -803,6 +959,8 @@
       \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
       \field{sortinit}{W}
       \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradate}{2}
+      \field{labeldatesource}{nodate}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Donna Strickland - Wikipedia (old revision)}}
@@ -819,7 +977,7 @@
     \endentry
     \entry{wikipedia_Size}{misc}{}
       \name{author}{1}{}{%
-        {{hash=9c677286866aad38f8e9b660f5411814}{%
+        {{uniquename=0,uniquepart=base,hash=9c677286866aad38f8e9b660f5411814}{%
            family={Wikipedia},
            familyi={W\bibinitperiod}}}%
       }
@@ -831,6 +989,8 @@
       \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
       \field{sortinit}{W}
       \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradate}{3}
+      \field{labeldatesource}{nodate}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Size of Wikipedia}}
@@ -843,7 +1003,7 @@
     \endentry
     \entry{wikipediaTutorial}{misc}{}
       \name{author}{1}{}{%
-        {{hash=9c677286866aad38f8e9b660f5411814}{%
+        {{uniquename=0,uniquepart=base,hash=9c677286866aad38f8e9b660f5411814}{%
            family={Wikipedia},
            familyi={W\bibinitperiod}}}%
       }
@@ -855,6 +1015,8 @@
       \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
       \field{sortinit}{W}
       \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradate}{4}
+      \field{labeldatesource}{nodate}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Wikipedia Tutorial {\&} Registration}}
@@ -870,22 +1032,16 @@
       \endverb
     \endentry
     \entry{wikipedians}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=9c677286866aad38f8e9b660f5411814}{%
-           family={Wikipedia},
-           familyi={W\bibinitperiod}}}%
-      }
-      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
-      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
-      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
-      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
-      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
-      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
       \field{sortinit}{W}
       \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
-      \field{labelnamesource}{author}
+      \field{labeldatesource}{nodate}
       \field{labeltitlesource}{title}
+      \field{booktitle}{Wikipedia}
       \field{title}{{Wikipedians}}
+      \field{urlday}{10}
+      \field{urlmonth}{1}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://en.wikipedia.org/wiki/Wikipedia:Wikipedians
       \endverb
@@ -895,33 +1051,38 @@
     \endentry
     \entry{Wirtz}{book}{}
       \name{author}{3}{}{%
-        {{hash=263453e1f964ef1a190fad8db0352262}{%
+        {{uniquename=0,uniquepart=base,hash=263453e1f964ef1a190fad8db0352262}{%
            family={Wirtz},
            familyi={W\bibinitperiod},
            given={Markus\bibnamedelima Antonius},
-           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=5537bbe749141d43a164bb2ae91b74b4}{%
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5537bbe749141d43a164bb2ae91b74b4}{%
            family={Strohmer},
            familyi={S\bibinitperiod},
            given={Janina},
-           giveni={J\bibinitperiod}}}%
-        {{hash=cb2dcaead6a3f4c3bf7b36832dd75782}{%
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=cb2dcaead6a3f4c3bf7b36832dd75782}{%
            family={Dorsch},
            familyi={D\bibinitperiod},
            given={Friedrich},
-           giveni={F\bibinitperiod}}}%
+           giveni={F\bibinitperiod},
+           givenun=0}}%
       }
       \list{publisher}{1}{%
         {Wirtz, Markus Antonius}%
       }
-      \strng{namehash}{57e200729ace10f772ba29d571314dc0}
+      \strng{namehash}{3e122bbf8b44c0957e249dd9f9ece991}
       \strng{fullhash}{57e200729ace10f772ba29d571314dc0}
       \strng{bibnamehash}{57e200729ace10f772ba29d571314dc0}
       \strng{authorbibnamehash}{57e200729ace10f772ba29d571314dc0}
-      \strng{authornamehash}{57e200729ace10f772ba29d571314dc0}
+      \strng{authornamehash}{3e122bbf8b44c0957e249dd9f9ece991}
       \strng{authorfullhash}{57e200729ace10f772ba29d571314dc0}
       \field{sortinit}{W}
       \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{18., über}
