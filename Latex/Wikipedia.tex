@@ -11,6 +11,7 @@
 \usepackage{mathptmx}
 
 \usepackage{graphicx}
+\usepackage[section]{placeins}
 
 \PassOptionsToPackage{
 style=apa,
@@ -229,15 +230,17 @@ Mit manuellen Stichproben haben wir die Richtigkeit unserer Daten überprüft.
 Bei der Betrachtung der Histogramme fällt sofort auf, dass es sich nicht um eine Normalverteilung handelt.
 
 \begin{figure}
-\caption{Histogramm: Anzahl der Wörter}
 \includegraphics[width=1\textwidth]{figures/wordcount_small_bins_histogram.png}
+\caption[Histogramm: Anzahl der Wörter]{Histogramm: Anzahl der Wörter}
+\label{fig:wordcountHistogram}
 \end{figure}
 
 Dieser Eindruck wird bekräftigt nach der Betrachtung der Histogramme für die unterschiedlichen Disziplinen.
 
 \begin{figure}
-\caption{Histogramme: Anzahl der Wörter für alle Disziplinen}
 \includegraphics[width=1\textwidth]{figures/wordcount_disciplines_histogram.png}
+\caption[Histogramme: Anzahl der Wörter für alle Disziplinen]{Histogramme: Anzahl der Wörter für alle Disziplinen}
+\label{fig:wordcountDisciplinesHistogram}
 \end{figure}
 
 Bei den Maxima fällt auf, dass es teilweise bedeutende Unterschiede gibt, sowohl zwischen den verschiedenen Sportarten als auch innerhalb der einzelnen Sportarten zwischen Männern und Frauen. 
@@ -246,35 +249,6 @@ Die Artikel mit der höchsten Wortanzahl der drei Disziplinen Leichtathletik Spr
 
 In 5 von 8 Disziplinen ist der Artikel mit der höchsten Wortanzahl über einen Mann, davon in 2 Disziplinen mit einem Vielfachen der Wortanzahl.
 In 3 Disziplinen ist der Artikel mit der höchsten Wortanzahl über eine Frau, davon ebenfalls in 2 Disziplinen mit einem Vielfachen der Wortanzahl. 
-
-\begin{figure}
-\caption{Maxima, Standardabweichungen, Mittelwerte und Median-Werte der Anzahl der Wörter für alle Disziplinen}
-\includegraphics[width=1\textwidth]{figures/wordcount_extrema.png}
-\end{figure}
-
-Die Mittelwerte und Median-Werte der einzelnen Sportarten geben mit Ausnahme der Disziplin Radsport Straße Einzelwettkampf, bei der sowohl bei Mittelwert als auch Median die Artikellänge von männlichen die der weiblichen Sportler*innen um ein Vielfaches überschreitet, ein ausgeglicheneres Bild zwischen der Artikellänge von Männern und Frauen.   
-
-Auffällig ist, dass sich im Vergleich von Mittelwert und Median die Verhältnisse in 5 von 8 Fällen umkehren. Davon wird in 4 Fällen im Median die Artikellänge der Männer höher, wo sie im Mittelwert niedriger ist, und in einem Fall umgekehrt (Turmspringen 10m).
-
-Das könnte auf Ausreißer verweisen, die im Median weniger Bedeutung haben.
-
-
-\begin{figure}
-\caption{Maxima, Standardabweichungen, Mittelwerte und Median-Werte der Anzahl der Wörter für alle Disziplinen}
-\includegraphics[width=1\textwidth]{figures/wordcount_boxplot}
-\end{figure}
-
-
-\begin{figure}
-\caption{Maxima, Standardabweichungen, Mittelwerte und Median-Werte der Anzahl der Wörter für alle Disziplinen}
-\includegraphics[width=1\textwidth]{figures/wordcount_stripplot}
-\end{figure}
-
-
-\subsubsection{Ausreißer}
-
-Anhand der Boxplots lässt sich zunächst feststellen, dass die Artikellänge der Ausreißer so markant ist, dass die Boxplots mit Ausnahme der Disziplin Radsport Straße Einzelwettkampf der Männer in der Darstellung fast verschwinden.
-
 
 \begin{table}
 \begin{tabular}{ c|c|c|c|c }
@@ -308,29 +282,100 @@ Anhand der Boxplots lässt sich zunächst feststellen, dass die Artikellänge de
 \caption{\label{tab:wordcount_kpi_men}Wortanzahl Kennwerte Männer}
 \end{table}
 
+\begin{figure}
+\includegraphics[width=1\textwidth]{figures/max_std.png}
+\caption[Maxima und Standardabweichungen der Wortanzahl für alle Disziplinen]{Maxima und Standardabweichungen der Wortanzahl für alle Disziplinen}
+\label{fig:wordcountMaxStd}
+\end{figure}
+
+Die Mittelwerte und Median-Werte der einzelnen Sportarten geben mit Ausnahme der Disziplin Radsport Straße Einzelwettkampf, bei der sowohl bei Mittelwert als auch Median die Artikellänge von männlichen die der weiblichen Sportler*innen um ein Vielfaches überschreitet, ein ausgeglicheneres Bild zwischen der Artikellänge von Männern und Frauen.   
+
+Auffällig ist, dass sich im Vergleich von Mittelwert und Median die Verhältnisse in 5 von 8 Fällen umkehren. Davon wird in 4 Fällen im Median die Artikellänge der Männer höher, wo sie im Mittelwert niedriger ist, und in einem Fall umgekehrt (Turmspringen 10m).
+
+Das könnte auf Ausreißer verweisen, die im Median weniger Bedeutung haben.
+
+\begin{figure}
+\includegraphics[width=1\textwidth]{figures/mean_median.png}
+\caption[Mittelwerte und Mediane der Wortanzahl für alle Disziplinen]{Mittelwerte und Mediane der Wortanzahl für alle Disziplinen}
+\label{fig:wordcountMeanMedian}
+\end{figure}
+
+\subsubsection{Ausreißer}
+
+Anhand der Boxplots lässt sich zunächst feststellen, dass die Artikellänge der Ausreißer so markant ist, dass die Boxplots mit Ausnahme der Disziplin Radsport Straße Einzelwettkampf der Männer in der Darstellung fast verschwinden.
+
+\begin{figure}
+\includegraphics[width=1\textwidth]{figures/wordcount_boxplot.png}
+\caption[Boxplot: Anzahl der Worte]{Boxplot: Anzahl der Worte}
+\label{fig:wordcountBoxPlot}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=1\textwidth]{figures/wordcount_stripplot.png}
+\caption[Stripplot: Anzahl der Worte]{Stripplot: Anzahl der Worte}
+\label{fig:wordcountStripPlot}
+\end{figure}
 
 \subsubsection{Signifikanz}
 Wie aus den Median-Werten bereits erkennbar, sind nach Berechnung des P-Wertes die Unterschiede in der Artikellänge in 7 von 8 Disziplinen nicht als signifikant anzusehen. Lediglich in der Disziplin Radsport Straße Einzelwettkampf ist ein signifikanter Unterschied zugunsten der Artikellänge der männlichen Sportler*innen festzustellen.
 
 Damit ist unsere Hypothese 1 widerlegt.
 
-
+\begin{table}
+\begin{tabular}{ c|c|c }
+  Disziplin & P-Value & Signifikanz \\
+  \hline
+  Turmspringen 10m & 0.194793 & nicht signifikant \\
+  Bogenschießen Einzelwettkampf & 0.244022 & nicht signifikant \\
+  Fechten Épée Einzelwettkampf & 0.249482 & nicht signifikant \\
+  Moderner Fünfkampf Einzelwettkampf & 0.378212 & nicht signifikant \\
+  Leichtathletik Stabhochsprung & 0.275070 & nicht signifikant \\
+  Schwimmen 100m Freistil & 0.408711 & nicht signifikant \\
+  Radsport Straße Einzelwettkampf & 0.000778 & signifikant \\
+  Leichtathletik Sprint 100m & 0.062512 & nicht signifikant \\
+\end{tabular}
+\caption{\label{tab:utest_wordcount}Ergebnisse des Mann-Whitney-U-Test}
+\end{table}
 
 \subsection{Anzahl der Editierungen // Tumbrägel, Daniela 558529}
 \subsubsection{Verteilung}
 Wie bei der Anzahl der Wörter im zuvorkommenden Abschnitt fällt bei der Betrachtung des Histogramms auf, dass es sich nicht um eine Normalverteilung handelt.
 
+\begin{figure}
+\includegraphics[width=1\textwidth]{figures/editcount_small_bins_histogram.png}
+\caption[Histogramm: Anzahl der Edits]{Histogramm: Anzahl der Edits}
+\label{fig:editcountHistogram}
+\end{figure}
+
 Da die Histogramme der verschiedenen Disziplinen sehr linksbündig sind, wird diese Beobachtung dadurch zusätzlich bestätigt. 
+
+\begin{figure}
+\includegraphics[width=1\textwidth]{figures/editcount_disciplines_histogram.png}
+\caption[Histogramm: Edits pro Disziplin]{Histogramm: Edits pro Disziplin}
+\label{fig:editcountDisciplineHistogram}
+\end{figure}
 
 Die folgenden Grafiken zeigen jeweils die Maximal-, Mittel- und Medianwerte sowie die Standardabweichung der Editierungen pro Disziplin. 
 
-Mit Blick auf die Maxima der Editierungen per Disziplin ist erkennbar, dass es durchaus Unterschiede zwischen Frauen und Männern gibt, da insbesondere in den Disziplinen "Turmspringen 10m", "Radsport Straße Einzelwettkampf" und "Leichtathletik Sprint 100m" signifikante Unterschiede zugunsten der Männer sichtbar sind. Allerdings ist dies nur bedingt aussagekräftig, da es sich bei den Maxima um Ausreißer handeln kann, die nicht maßgeblich für die durchschnittliche Verteilung sind. Dies verifizieren wir durch nachfolgende Plots (s. Figure 10).
+Mit Blick auf die Maxima der Editierungen per Disziplin ist erkennbar, dass es durchaus Unterschiede zwischen Frauen und Männern gibt, da insbesondere in den Disziplinen "Turmspringen 10m", "Radsport Straße Einzelwettkampf" und "Leichtathletik Sprint 100m" signifikante Unterschiede zugunsten der Männer sichtbar sind. Allerdings ist dies nur bedingt aussagekräftig, da es sich bei den Maxima um Ausreißer handeln kann, die nicht maßgeblich für die durchschnittliche Verteilung sind. Dies verifizieren wir durch nachfolgende Plots (\ref{fig:editcountMaxStd} und \ref{fig:editcountMeanMedian}).
 
 Das Histogramm, dass den Mittelwert aufführt, zeigt ähnliche Beobachtungen, die jedoch ebenfalls aufgrund von Ausreißern schwer zu interpretieren sind.
 
 Grundsätzlich kann aber festgehalten werden, dass sehr markante Extremwerte primär bei den Männern - mit einem Spitzenwert von 3276 Editierungen - zu finden sind.
 
 Aufgrund der Verteilung der Daten ist der Median hingegen durch die Sortierung der Ergebnisse vergleichsweise aussagekräftig. Dieser visualisiert hier, dass es nur in der Disziplin "Radsport Straße Einzelwettkampf" signifikante Unterschiede bei Frauen und Männern bzgl. der Editierungen der Wikipedia-Artikel gibt.
+
+\begin{figure}
+\includegraphics[width=1\textwidth]{figures/editcount_max_std.png}
+\caption[Kennwerte Editierungen: Maximum und Standardabweichung]{Kennwerte Edits: Maximum und Standardabweichung}
+\label{fig:editcountMaxStd}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=1\textwidth]{figures/mean_median_edit.png}
+\caption[Kennwerte Editierungen: Mittelwert und Median]{Kennwerte Edits: Mittelwert und Median}
+\label{fig:editcountMeanMedian}
+\end{figure}
 
 \begin{table}
 \begin{tabular}{ c|c|c|c|c }
@@ -364,17 +409,28 @@ Aufgrund der Verteilung der Daten ist der Median hingegen durch die Sortierung d
 \caption{\label{tab:editcount_kpi_men}Kennwerte Männer}
 \end{table}
 
-\includegraphics[width=1\textwidth]{figures/editcount_boxplot.png}
-
 \subsubsection{Ausreißer}
 Wie in der Methodik beschrieben, nutzen wir Box- und Stripplots insbesondere zur Visualisierung der Ausreißer in der vorhandenen Datenquelle. Die Abbildungen zeigen jeweils die Männer auf der linken und die Frauen auf der rechten Seite. 
 
 Es ist deutlich erkennbar, dass bei den Männern mehrere sehr hohe Werte aufzufinden sind während es bei den Frauen zwar ebenfalls viele Ausreißer gibt, diese allerdings vergleichsweise niedrig angesiedelt sind. Die Disziplinen "Turmspringen 10m", "Radsport Straße Einzelwettkampf" und  "Leichtathletik Sprint 100m" fallen bei den Männern durch vereinzelte hochwertige Ergebnisse besonders auf. Bei den Frauen ist nur ein vergleichsweise hochwertiger Ausreißer in der Disziplin "Leichtathletik Sprint 100m" zu erkennen, der sich allerdings nur marginal von den restlichen Ausreißern abgrenzt. 
 
+\begin{figure}
+\includegraphics[width=1\textwidth]{figures/editcount_boxplot.png}
+\caption[Boxplot: Anzahl der Editierungen]{Boxplot: Anzahl der Editierungen}
+\label{fig:editcountBoxPlot}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=1\textwidth]{figures/editcount_stripplot.png}
+\caption[Stripplot: Anzahl der Editierungen]{Stripplot: Anzahl der Editierungen}
+\label{fig:editcountStripPlot}
+\end{figure}
+
 \subsubsection{Signifikanz}
 
 Der Mann-Whitney-U-Test zeigt mit Hilfe der Berechnung des P-Wertes, wie oben bei den Medianwerten bereits angedeutet, dass es größtenteils keine signifikanten Unterschiede zwischen Frauen und Männern gibt. Wie bei der Anzahl der Wörter ist auch bei der Anzahl der Editierungen in 7 von 8 Disziplinen keine Signifikanz zu erkennen.
 
+\begin{table}
 \begin{tabular}{ c|c|c }
   Disziplin & P-Value & Signifikanz \\
   \hline
@@ -387,6 +443,8 @@ Der Mann-Whitney-U-Test zeigt mit Hilfe der Berechnung des P-Wertes, wie oben be
   Radsport Straße Einzelwettkampf & 0.000242 & signifikant \\
   Leichtathletik Sprint 100m & 0.013091 & signifikant \\
 \end{tabular}
+\caption{\label{tab:utest_edit}Ergebnisse des Mann-Whitney-U-Test}
+\end{table}
 
 Die zweite Hypothese ist somit ebenfalls widerlegt. 
 
