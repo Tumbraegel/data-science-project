@@ -206,7 +206,7 @@ Für das Verarbeiten der HTML-Seiten haben wir die Python-Bibliothek \textit{lxm
 
 Um mögliche Fehler beim Sammeln der Daten von \textit{olympic.org} zu vermeiden, haben wir das Olympic Studies Centre per Mail kontaktiert. Diese haben uns daraufhin eine Excel-Tabelle mit den ausführlichen Ergebnissen der Olympischen Sommerspiele 2016 zur Verfügung gestellt.
 
-Die Daten haben wir anschließend nach den von uns gewählten Stichproben gefiltert, sodass daraus 8 Disziplinen mit den jeweils am besten Frauen und Männern resultierten. Da die Anzahl der Frauen und Männer innerhalb einer Disziplin teils nicht identisch war, entfernten wir die überzähligen Sportler*innen einer Disziplin, um gleiche Gruppengrößen innerhalb jeder Disziplin zu erzielen.
+Die Daten haben wir anschließend nach den von uns gewählten Stichproben gefiltert, sodass daraus 8 Disziplinen mit den jeweils besten Frauen und Männern resultierten. Da die Anzahl der Frauen und Männer innerhalb einer Disziplin teils nicht identisch war, entfernten wir nach Rangfolge die überzähligen Sportler*innen einer Disziplin, um gleiche Gruppengrößen innerhalb jeder Disziplin zu erzielen.
 
 Um die Wikipedia-Titel mit den von uns benötigten Daten der Ergebnistabelle zu verbinden, mussten wir nun die unterschiedlichen Namensformate anpassen und Sonderzeichen umwandeln. So setzt zum Beispiel Wikipedia bei Namensgleichheit von in Wikipedia erfassten Personen eine Kategoriebezeichnung ans Ende des Namens, z.B. "(diver)".
 
@@ -242,10 +242,39 @@ Dieser Eindruck wird bekräftigt nach der Betrachtung der Histogramme für die u
 
 Bei den Maxima fällt auf, dass es teilweise bedeutende Unterschiede gibt, sowohl zwischen den verschiedenen Sportarten als auch innerhalb der einzelnen Sportarten zwischen Männern und Frauen. 
 
-Die Artikel mit der höchsten Wortanzahl der drei Disziplinen Leichtathletik Sprint 100m, Radsport Straße Einzelwettkampf und Turmspringen 10m handeln von männlichen Sportlern. Es folgen mit geringerer Wortzahl Artikel über weibliche Sportlerinnen in den Disziplinen Radsport Straße Einzelwettkampf, Fechten Épée Einzelwettkampf und Leichtathletik Sprint 100m. 
+Die Artikel mit der höchsten Wortanzahl der drei Disziplinen Leichtathletik Sprint 100m, Radsport Straße Einzelwettkampf und Turmspringen 10m handeln von männlichen Sportlern. Es folgen mit geringerer Wortzahl Artikel über weibliche Sportlerinnen in den Disziplinen Radsport Straße Einzelwettkampf und Fechten Épée Einzelwettkampf. 
 
 In 5 von 8 Disziplinen ist der Artikel mit der höchsten Wortanzahl über einen Mann, davon in 2 Disziplinen mit einem Vielfachen der Wortanzahl.
 In 3 Disziplinen ist der Artikel mit der höchsten Wortanzahl über eine Frau, davon ebenfalls in 2 Disziplinen mit einem Vielfachen der Wortanzahl. 
+
+\begin{figure}
+\caption{Maxima, Standardabweichungen, Mittelwerte und Median-Werte der Anzahl der Wörter für alle Disziplinen}
+\includegraphics[width=1\textwidth]{figures/wordcount_extrema.png}
+\end{figure}
+
+Die Mittelwerte und Median-Werte der einzelnen Sportarten geben mit Ausnahme der Disziplin Radsport Straße Einzelwettkampf, bei der sowohl bei Mittelwert als auch Median die Artikellänge von männlichen die der weiblichen Sportler*innen um ein Vielfaches überschreitet, ein ausgeglicheneres Bild zwischen der Artikellänge von Männern und Frauen.   
+
+Auffällig ist, dass sich im Vergleich von Mittelwert und Median die Verhältnisse in 5 von 8 Fällen umkehren. Davon wird in 4 Fällen im Median die Artikellänge der Männer höher, wo sie im Mittelwert niedriger ist, und in einem Fall umgekehrt (Turmspringen 10m).
+
+Das könnte auf Ausreißer verweisen, die im Median weniger Bedeutung haben.
+
+
+\begin{figure}
+\caption{Maxima, Standardabweichungen, Mittelwerte und Median-Werte der Anzahl der Wörter für alle Disziplinen}
+\includegraphics[width=1\textwidth]{figures/wordcount_boxplot}
+\end{figure}
+
+
+\begin{figure}
+\caption{Maxima, Standardabweichungen, Mittelwerte und Median-Werte der Anzahl der Wörter für alle Disziplinen}
+\includegraphics[width=1\textwidth]{figures/wordcount_stripplot}
+\end{figure}
+
+
+\subsubsection{Ausreißer}
+
+Anhand der Boxplots lässt sich zunächst feststellen, dass die Artikellänge der Ausreißer so markant ist, dass die Boxplots mit Ausnahme der Disziplin Radsport Straße Einzelwettkampf der Männer in der Darstellung fast verschwinden.
+
 
 \begin{table}
 \begin{tabular}{ c|c|c|c|c }
@@ -278,6 +307,14 @@ In 3 Disziplinen ist der Artikel mit der höchsten Wortanzahl über eine Frau, d
 \end{tabular}
 \caption{\label{tab:table-name}Wortanzahl Kennwerte Männer}
 \end{table}
+
+
+\subsubsection{Signifikanz}
+Wie aus den Median-Werten bereits erkennbar, sind nach Berechnung des P-Wertes die Unterschiede in der Artikellänge in 7 von 8 Disziplinen nicht als signifikant anzusehen. Lediglich in der Disziplin Radsport Straße Einzelwettkampf ist ein signifikanter Unterschied zugunsten der Artikellänge der männlichen Sportler*innen festzustellen.
+
+Damit ist unsere Hypothese 1 widerlegt.
+
+
 
 \subsection{Anzahl der Editierungen // Tumbrägel, Daniela 558529}
 \subsubsection{Verteilung}
