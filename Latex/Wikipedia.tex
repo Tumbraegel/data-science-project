@@ -118,13 +118,13 @@ Im Hinblick auf die größtenteils gleichmäßige Anzahl von Frauen und Männern
 \section {Theorie // Hillebrand, Lisa (558529)}
 \label{intro}
 \subsection {Wikipedia}
-Wikipedia wurde im Jahr 2001 gegründet \parencite{wikipediaTimeline}. Mittlerweile gibt es sprachenübergreifend über 46 Millionen Artikel \parencite{wikipedia_Size}. Von rund 35 Millionen registrierten Nutzer*innen sind jedoch nur etwa 124.000 monatlich aktiv \parencite{wikipedians}. Wikipedia ist zum Zeitpunkt des Verfassens dieses Textes auf dem fünften Platz der weltweit populärsten Websites und hat damit eine enorme Reichweite \parencite{Alexa2019}.
+Wikipedia wurde im Jahr 2001 gegründet \parencite{wikipediaTimeline}. Mittlerweile gibt es sprachen- übergreifend über 46 Millionen Artikel \parencite{wikipedia_Size}. Von rund 35 Millionen registrierten Nutzer*innen sind jedoch nur etwa 124.000 monatlich aktiv \parencite{wikipedians}. Wikipedia ist zum Zeitpunkt des Verfassens dieses Textes auf dem fünften Platz der weltweit populärsten Websites und hat damit eine enorme Reichweite \parencite{Alexa2019}.
 
 Jede Person kann zu Wikipedia beitragen und auch ohne Registrierung Artikel bearbeiten \parencite{wikipediaTutorial}. Das Erstellen neuer Artikel ist nur nach vorheriger Registrierung möglich. Jeder Artikel verfügt über eine Versionsgeschichte, in der vorherige Artikelversionen sowie die Anmerkungen der Autor*innen und Administrator*innen gespeichert werden.
 
 \subsection {Gender Bias}
 
-Ein Bias ist eine Verzerrung bzw. ein systematischer Fehler \parencite{Wirtz}. Als "Gender Bias" bezeichnet man eine Bevorzugung oder Parteilichkeit gegenüber einer oder mehreren Personen ausschließlich wegen des Geschlechts. Es sollen nun einige Erkenntnisse hinsichtlich des Gender Bias im Sport zusammengefasst und und daraus die Hypothesen abgeleitet werden.
+Ein Bias ist eine Verzerrung bzw. ein systematischer Fehler \parencite{Wirtz}. Als "Gender Bias" bezeichnet man eine Bevorzugung oder Parteilichkeit gegenüber einer oder mehreren Personen ausschließlich wegen des Geschlechts. Es sollen nun einige Erkenntnisse hinsichtlich des Gender Bias zusammengefasst und und daraus die Hypothesen abgeleitet werden.
 
 \subsection {Gender Bias und Wikipedia}
 In mehreren Studien konnte gezeigt werden, dass ein Gender Bias sowohl in der Zusammensetzung der Autorenschaft bei Wikipedia als auch hinsichtlich der inhaltlichen Gestaltung der Artikel besteht. 
@@ -240,7 +240,7 @@ Dieser Eindruck wird bekräftigt nach der Betrachtung der Histogramme für die u
 
 \begin{figure}
 \includegraphics[width=1\textwidth]{figures/wordcount_disciplines_histogram.png}
-\caption[Histogramme: Anzahl der Wörter für alle Disziplinen]{Histogramme: Anzahl der Wörter für alle Disziplinen}
+\caption[Histogramme: Anzahl der Wörter pro Disziplin]{Histogramme: Anzahl der Wörter pro Disziplin}
 \label{fig:wordcountDisciplinesHistogram}
 \end{figure}
 
@@ -286,7 +286,7 @@ In 3 Disziplinen ist der Artikel mit der höchsten Wortanzahl über eine Frau, d
 \end{table}
 
 \begin{figure}
-\includegraphics[width=1\textwidth]{figures/max_std.png}
+\includegraphics[width=1\textwidth]{figures/wordcount_max_std.png}
 \caption[Maxima und Standardabweichungen der Wortanzahl für alle Disziplinen]{Maxima und Standardabweichungen der Wortanzahl für alle Disziplinen}
 \label{fig:wordcountMaxStd}
 \end{figure}
@@ -298,7 +298,7 @@ Auffällig ist, dass sich im Vergleich von Mittelwert und Median die Verhältnis
 Das könnte auf Ausreißer verweisen, die im Median weniger Bedeutung haben.
 
 \begin{figure}
-\includegraphics[width=1\textwidth]{figures/mean_median.png}
+\includegraphics[width=1\textwidth]{figures/wordcount_mean_median.png}
 \caption[Mittelwerte und Mediane der Wortanzahl für alle Disziplinen]{Mittelwerte und Mediane der Wortanzahl für alle Disziplinen}
 \label{fig:wordcountMeanMedian}
 \end{figure}
@@ -338,7 +338,7 @@ Damit ist unsere Hypothese 1 widerlegt.
   Radsport Straße Einzelwettkampf & 0.000778 & signifikant \\
   Leichtathletik Sprint 100m & 0.062512 & nicht signifikant \\
 \end{tabular}
-\caption{\label{tab:utest_wordcount}Ergebnisse des Mann-Whitney-U-Test}
+\caption{\label{tab:utest_wordcount}Ergebnisse: Mann-Whitney-U-Test (Wortanzahl)}
 \end{table}
 
 \subsection {Anzahl der Editierungen // Tumbrägel, Daniela 558529}
@@ -355,7 +355,7 @@ Da die Histogramme der verschiedenen Disziplinen in \ref{fig:editcountDiscipline
 
 \begin{figure}
 \includegraphics[width=1\textwidth]{figures/editcount_disciplines_histogram.png}
-\caption[Histogramm: Edits pro Disziplin]{Histogramm: Edits pro Disziplin}
+\caption[Histogramme: Editierungen pro Disziplin]{Histogramme: Editierungen pro Disziplin}
 \label{fig:editcountDisciplineHistogram}
 \end{figure}
 
@@ -376,7 +376,7 @@ Grundsätzlich kann aber festgehalten werden, dass sehr markante Extremwerte pri
 Aufgrund der Verteilung der Daten ist der Median hingegen durch die Sortierung der Ergebnisse vergleichsweise aussagekräftig. Dieser visualisiert hier, dass es nur in der Disziplin "Radsport Straße Einzelwettkampf" signifikante Unterschiede bei Frauen und Männern bzgl. der Editierungen der Wikipedia-Artikel gibt (siehe Abbildung \ref{fig:editcountMeanMedian}).
 
 \begin{figure}
-\includegraphics[width=1\textwidth]{figures/mean_median_edit.png}
+\includegraphics[width=1\textwidth]{figures/editcount_mean_median.png}
 \caption[Kennwerte Editierungen: Mittelwert und Median]{Kennwerte Edits: Mittelwert und Median}
 \label{fig:editcountMeanMedian}
 \end{figure}
@@ -395,7 +395,7 @@ Aufgrund der Verteilung der Daten ist der Median hingegen durch die Sortierung d
   Radsport Straße Einzelwettkampf & 557 & 148.066667 & 97.0 & 984.240138\\
   Leichtathletik Sprint 100m & 710 & 67.675000 & 41.0 & 487.333815\\
 \end{tabular}
-\caption{\label{tab:editcount_kpi_women}Kennwerte Frauen}
+\caption{\label{tab:editcount_kpi_women}Kennwerte: Anzahl der Editierungen (Frauen)}
 \end{table}
 
 \begin{table}
@@ -412,7 +412,7 @@ Aufgrund der Verteilung der Daten ist der Median hingegen durch die Sortierung d
   Radsport Straße Einzelwettkampf & 2466 & 407.166667 & 233.5 & 1882.713246\\
   Leichtathletik Sprint 100m & 3277 & 161.387500 & 54.0 & 1262.914988\\
 \end{tabular}
-\caption{\label{tab:editcount_kpi_men}Kennwerte Männer}
+\caption{\label{tab:editcount_kpi_men}Kennwerte: Anzahl der Editierungen (Männer)}
 \end{table}
 
 \subsubsection {Ausreißer}
@@ -450,7 +450,7 @@ Der Mann-Whitney-U-Test zeigt mit Hilfe der Berechnung des P-Wertes, wie oben be
   Radsport Straße Einzelwettkampf & 0.000242 & signifikant \\
   Leichtathletik Sprint 100m & 0.013091 & signifikant \\
 \end{tabular}
-\caption{\label{tab:utest_edit}Ergebnisse des Mann-Whitney-U-Test}
+\caption{\label{tab:utest_edit}Ergebnisse: Mann-Whitney-U-Test (Editierungsanzahl)}
 \end{table}
 
 Die zweite Hypothese ist somit ebenfalls widerlegt. 
@@ -465,7 +465,7 @@ Daraus schließen wir, dass es für die von uns untersuchten Disziplinen keinen 
 
 Dieses Ergebnis deckt sich mit den Erkenntnissen anderer Untersuchungen, wie zum Beispiel der Studie von \textcite{GraellsGarrido2015}, in denen zwar signifikant längere Artikel über Männer gefunden wurden bei jedoch nur geringer Effektstärke.
 
-Unsere Untersuchung beschränkt sich aufgrund limitierter Ressourcen stichprobenartig auf 8 von 42 Disziplinen der Olympischen Sommerspiele 2016. Diese Beschränkung ist bei der Betrachtung der Repräsentativität der Ergebnisse zu beachten.
+Unsere Untersuchung beschränkt sich aufgrund limitierter Ressourcen stichprobenartig auf 8 von 42 Disziplinen der Olympischen Sommerspiele 2016. Diese Beschränkung ist bei der Betrachtung der Reprä- sentativität der Ergebnisse zu beachten.
 
 Zudem fokussiert sich unsere Studie auf den stark quantitativ ausgerichteten Abdeckungsbias. Ausblickend wäre es interessant, auch die Verlinkungsstruktur der Artikel sowie inhaltliche Aspekte zu untersuchen. Wie in zuvor genannten Studien beschrieben, gibt es qualitative Unterschiede in der Art, wie Sportreporter*innen den Erfolg oder Misserfolg von Sportler*innen kommentieren. Genauso bestehen Unterschiede in geschriebenen Artikeln über Sportereignisse. Für eine Inhaltsanalyse wäre es nötig, sich auf die erfolgreichsten Sportler*innen bei Olympia zu beschränken, da die Artikellängen über weniger erfolgreiche Sportler*innen keine Inhaltsanalyse hergeben.
 
