@@ -47,29 +47,32 @@ eprint=false
 \begin{titlepage}
    \begin{center}
        \vspace*{1cm}
-       
-       \Huge	
-       Zusammenhang zwischen sportlichem Erfolg und Darstellung bei Wikipedia im Vergleich zwischen Sportlern und Sportlerinnen 
-       \vspace{2.0cm}       
-       
-       \includegraphics[width=0.4\textwidth]{logo.jpg} 
-       
+
+       \Huge
+       Zusammenhang zwischen sportlichem Erfolg und Darstellung bei Wikipedia im Vergleich zwischen Sportlern und Sportlerinnen
+       \vspace{2.0cm}
+
+       \includegraphics[width=0.4\textwidth]{logo.jpg}
+
        \vspace{1.5cm}
        \LARGE
-       
+
        Josefine Sophie Busch, Lisa Hillebrand, Flip Jansen, Daniela Tumbrägel
- 
+
        \vfill
- 
+
+		\url{https://github.com/Tumbraegel/data-science-project}
+		\vfill
+
        Grundlagen sozialer Netze \\
        Prof. Dr. Gefei Zhang\\
        Wintersemester 2018/2019\\
- 
+
        \vspace{0.8cm}
-      
+
        Hochschule für Technik und Wirtschaft\\
        Berlin\\
- 
+
    \end{center}
 \end{titlepage}
 
@@ -80,7 +83,7 @@ eprint=false
 \listoffigures
 \pagebreak
 
-\section{Einleitung, Problemformulierung (Daniela Tumbrägel (558529)}
+\section{Einleitung, Problemformulierung (Daniela Tumbrägel 558529)}
 
 Die vorliegende Studie ist eine explanative Analyse des Zusammenhangs zwischen sportlichem Erfolg von Sportler*innen und deren Repräsentation auf Wikipedia, gemessen an der Länge der Artikel und der Anzahl der Editierungen. Wie man am Beispiel von Caster Semenya feststellen muss, sind die Olympischen Spiele noch sehr von binären Geschlechterkonstrukten geprägt und unterscheiden die Teilnehmer*innen in ihren Wettbewerben dementsprechend \parencite{IOCRules}. Daher ist die vorliegende Studie zwangsläufig dieser limitierten Sichtweise angepasst und unterscheidet nur zwischen den Kategorien Frauen und Männer.
 
@@ -105,7 +108,7 @@ Jede Person kann zu Wikipedia beitragen und auch ohne Registrierung Artikel bear
 Ein Bias ist eine Verzerrung bzw. ein systematischer Fehler \parencite{Wirtz}. Als "Gender Bias" bezeichnet man eine Bevorzugung oder Parteilichkeit gegenüber einer oder mehreren Personen ausschließlich wegen des Geschlechts. Es sollen nun einige Erkenntnisse hinsichtlich des Gender Bias zusammengefasst und und daraus die Hypothesen abgeleitet werden.
 
 \subsection{Gender Bias und Wikipedia}
-In mehreren Studien konnte gezeigt werden, dass ein Gender Bias sowohl in der Zusammensetzung der Autorenschaft bei Wikipedia als auch hinsichtlich der inhaltlichen Gestaltung der Artikel besteht. 
+In mehreren Studien konnte gezeigt werden, dass ein Gender Bias sowohl in der Zusammensetzung der Autorenschaft bei Wikipedia als auch hinsichtlich der inhaltlichen Gestaltung der Artikel besteht.
 
 Unter den Autor*innen sind bestimmte Personengruppen deutlich unterrepräsentiert. In Nutzerbefragungen wurde erfasst, dass zwischen 84\% und 90\% aller Wikipidia-Autor*innen männlich sind \parencite{wikimediaReport,GraellsGarrido2015}. Hierzu muss jedoch angemerkt werden, dass die von der Wikimedia Foundation selbst durchgeführten Erhebungen Opt-in-Befragungen sind, die zu Verzerrungen führen können. So ist vorstellbar, dass weniger Frauen als Männer an der Befragung teilnehmen, sie aber eigentlich unter den Autor*innen deutlich häufiger vertreten sind. \textcite{Hill2013} überprüfen genau diese Kritikpunkte und berechnen einen korrigierten Wert für den Anteil der Autorinnen, der jedoch auch nach Korrektur bei lediglich 16.1\% liegt. Es lässt sich also zusammenfassen, dass nach jetzigem Stand der Kenntnis deutlich weniger Frauen als Männer zu Wikipedia beitragen.
 
@@ -132,7 +135,7 @@ Es ergeben sich folgende Hypothesen:
 
 Diese Untersuchung überprüft die Hypothesen anhand von acht ausgewählten Wettkämpfen bei den Olympischen Spielen 2016 in Rio de Janeiro.
 
-\section{Methodik (Josefine Busch, 560106)}
+\section{Methodik (Josefine Sophie Busch, 560106)}
 \label{igw}
 
 \subsection{Erhebungsart}
@@ -172,7 +175,7 @@ Mit weiteren Balkendiagrammen wollen wir die Extrem-, Mittel- und Medianwerte da
 Wir gehen davon aus, dass wir einige Ausreißer in unseren Daten haben werden. Sportler wie beispielsweise Usain Bolt werden erwartbar vergleichsweise lange Wikipedia-Artikel aufweisen. Um einen besseren Überblick über die Anzahl und Verteilung der Ausreißer zu bekommen, werden wir die Daten in einem Boxplot und einem Stripplot darstellen. Der Boxplot zeigt außerdem die Quantile. Als Ausreißer werden alle Datenpunkte im Boxplot dargestellt, die außerhalb des Bereiches liegen, in dem 90\% der Daten zu finden sind.
 
 \subsubsection{Signifikanz}
-Sollten unsere Daten normalverteilt sein, werden wir die Signifikanz mit Hilfe des T-Tests untersuchen, andernfalls wollen wir den Mann-Whitney-U-Test verwenden. 
+Sollten unsere Daten normalverteilt sein, werden wir die Signifikanz mit Hilfe des T-Tests untersuchen, andernfalls wollen wir den Mann-Whitney-U-Test verwenden.
 
 Der Mann-Whitney-U-Test kann verwendet werden, wenn Daten nicht normalverteilt sind und die abhängige Variable mindestens Ordinalskalenniveau aufweist.
 
@@ -180,7 +183,7 @@ Der Mann-Whitney-U-Test kann verwendet werden, wenn Daten nicht normalverteilt s
 \section{Durchführung (Flip Jansen, 558059)}
 
 \subsection{Datenbeschaffung und Datenpräparation}
-Ausgehend von der englischsprachigen Wikipedia-Übersichtsseite der Teilnehmer*innen der Olympischen Sommerspiele 2016 \parencite{wikiOlympicComp} haben wir rekursiv alle Sportarten gesammelt. Nachfolgend haben wir über die Sportarten die URLs und damit die Wikipedia-Titel der einzelnen Sportler*innen einer Disziplin gesammelt. 
+Ausgehend von der englischsprachigen Wikipedia-Übersichtsseite der Teilnehmer*innen der Olympischen Sommerspiele 2016 \parencite{wikiOlympicComp} haben wir rekursiv alle Sportarten gesammelt. Nachfolgend haben wir über die Sportarten die URLs und damit die Wikipedia-Titel der einzelnen Sportler*innen einer Disziplin gesammelt.
 
 Für das Verarbeiten der HTML-Seiten haben wir die Python-Bibliothek \textit{lxml} \parencite{lxml} verwendet.
 
@@ -190,13 +193,13 @@ Die Daten haben wir anschließend nach den von uns gewählten Stichproben gefilt
 
 Um die Wikipedia-Titel mit den von uns benötigten Daten der Ergebnistabelle zu verbinden, mussten wir nun die unterschiedlichen Namensformate anpassen und Sonderzeichen umwandeln. So setzt zum Beispiel Wikipedia bei Namensgleichheit von in Wikipedia erfassten Personen eine Kategoriebezeichnung ans Ende des Namens, z.B. "(diver)".
 
-Trotzdem konnten wir einige URLs nicht automatisiert zuordnen, da es zum einen in der Ergebnistabelle Rechtschreibfehler in den Namen gab, zum anderen bei Namen aus Sprachgebieten mit nicht-lateinischer Schrift unterschiedliche Umschriften möglich sind. Auch wurde die Reihenfolge von Namensbestandteilen insbesondere aus dem asiatischen Raum nicht einheitlich gehandhabt. Teilweise ließ sich dieses Problem dadurch lösen, die Namensbestandteile permutierend zu vergleichen. 
+Trotzdem konnten wir einige URLs nicht automatisiert zuordnen, da es zum einen in der Ergebnistabelle Rechtschreibfehler in den Namen gab, zum anderen bei Namen aus Sprachgebieten mit nicht-lateinischer Schrift unterschiedliche Umschriften möglich sind. Auch wurde die Reihenfolge von Namensbestandteilen insbesondere aus dem asiatischen Raum nicht einheitlich gehandhabt. Teilweise ließ sich dieses Problem dadurch lösen, die Namensbestandteile permutierend zu vergleichen.
 
-Ein Versuch, möglichen Rechtschreibfehlern bzw. Problemen mit Sonderzeichen zu begegnen, haben wir mithilfe des Levenshtein-Algorithmus unternommen \parencite{Sulzberger2019}. Dieser gibt die Anzahl von Einfüge-, Lösch- und Ersetz-Operationen zurück, die notwendig sind, um eine Zeichenkette in eine zweite umzuwandeln. Trotz niedrig angesetzten Schwellenwerten gab es aber zu viele falsche Zuordnungen, sodass wir darauf verzichtet haben. Für eine umfangreichere Datenauswertung lohnt es sich vermutlich, weiter in diese Richtung zu forschen. 
+Ein Versuch, möglichen Rechtschreibfehlern bzw. Problemen mit Sonderzeichen zu begegnen, haben wir mithilfe des Levenshtein-Algorithmus unternommen \parencite{Sulzberger2019}. Dieser gibt die Anzahl von Einfüge-, Lösch- und Ersetz-Operationen zurück, die notwendig sind, um eine Zeichenkette in eine zweite umzuwandeln. Trotz niedrig angesetzten Schwellenwerten gab es aber zu viele falsche Zuordnungen, sodass wir darauf verzichtet haben. Für eine umfangreichere Datenauswertung lohnt es sich vermutlich, weiter in diese Richtung zu forschen.
 
-Schlussendlich mussten wir einige Wikipedia-URLs der Sportler*innen manuell den entsprechenden Namen zuordnen. 
+Schlussendlich mussten wir einige Wikipedia-URLs der Sportler*innen manuell den entsprechenden Namen zuordnen.
 
-Mit den bereinigten Daten konnten wir nun mit Hilfe der Wikipedia-Bibliothek für Python \cite{goldsmith} den zum Titel gehörenden Artikel auslesen. Nach Bereinigung des Artikels von Steuerungszeichen haben wir die Wörter gezählt und unserem \textit{pandas} Dataframe hinzugefügt. 
+Mit den bereinigten Daten konnten wir nun mit Hilfe der Wikipedia-Bibliothek für Python \cite{goldsmith} den zum Titel gehörenden Artikel auslesen. Nach Bereinigung des Artikels von Steuerungszeichen haben wir die Wörter gezählt und unserem \textit{pandas} Dataframe hinzugefügt.
 
 Die Anzahl der Editierungen konnten wir auf der Page information-Seite des jeweiligen Hauptartikels auslesen, die diesem Format folgt:
 \url{https://en.wikipedia.org/w/index.php?title=PYTHON&action=info}
@@ -204,13 +207,13 @@ Die Anzahl der Editierungen konnten wir auf der Page information-Seite des jewei
 Mit manuellen Stichproben haben wir die Richtigkeit unserer Daten überprüft.
 
 \section{Ergebnisse}
-\subsection{Anzahl der Wörter (Josefine Busch, 560106)}
+\subsection{Anzahl der Wörter (Josefine Sophie Busch, 560106)}
 \subsubsection{Verteilung}
 Bei der Betrachtung der Histogramme in Abbildung \ref{fig:wordcountHistogram} fällt sofort auf, dass es sich nicht um eine Normalverteilung handelt.
 
 \begin{figure}
 \includegraphics[width=1\textwidth]{figures/wordcount_small_bins_histogram.png}
-\caption[Anzahl der Wörter pro Artikel für Sportler und Sportlerinnen]{Anzahl der Wörter pro Artikel für Sportler und Sportlerinnen}
+\caption[Anzahl der Wörter pro Artikel für Sportler*innen]{Anzahl der Wörter pro Artikel für Sportler*innen}
 \label{fig:wordcountHistogram}
 \end{figure}
 
@@ -222,12 +225,12 @@ Dieser Eindruck wird bekräftigt nach der Betrachtung der Histogramme für die u
 \label{fig:wordcountDisciplinesHistogram}
 \end{figure}
 
-Bei den Maxima in den Tabellen \ref{tab:wordcount_kpi_women} und \ref{tab:wordcount_kpi_men} beziehungsweise Abbildung \ref{fig:wordcountMaxStd} fällt auf, dass es teilweise bedeutende Unterschiede gibt, sowohl zwischen den verschiedenen Sportarten als auch innerhalb der einzelnen Sportarten zwischen Männern und Frauen. 
+Bei den Maxima in den Tabellen \ref{tab:wordcount_kpi_women} und \ref{tab:wordcount_kpi_men} beziehungsweise Abbildung \ref{fig:wordcountMaxStd} fällt auf, dass es teilweise bedeutende Unterschiede gibt, sowohl zwischen den verschiedenen Sportarten als auch innerhalb der einzelnen Sportarten zwischen Männern und Frauen.
 
-Die Artikel mit der höchsten Wortanzahl der drei Disziplinen Leichtathletik Sprint 100m, Radsport Straße Einzelwettkampf und Turmspringen 10m handeln von männlichen Sportlern. Es folgen mit geringerer Wortzahl Artikel über weibliche Sportlerinnen in den Disziplinen Radsport Straße Einzelwettkampf und Fechten Épée Einzelwettkampf. 
+Die Artikel mit der höchsten Wortanzahl der drei Disziplinen Leichtathletik Sprint 100m, Radsport Straße Einzelwettkampf und Turmspringen 10m handeln von männlichen Sportlern. Es folgen mit geringerer Wortzahl Artikel über weibliche Sportlerinnen in den Disziplinen Radsport Straße Einzelwettkampf und Fechten Épée Einzelwettkampf.
 
 In fünf von acht Disziplinen ist der Artikel mit der höchsten Wortanzahl über einen Mann, davon in zwei Disziplinen mit einem Vielfachen der Wortanzahl.
-In drei Disziplinen ist der Artikel mit der höchsten Wortanzahl über eine Frau, davon ebenfalls in zwei Disziplinen mit einem Vielfachen der Wortanzahl. 
+In drei Disziplinen ist der Artikel mit der höchsten Wortanzahl über eine Frau, davon ebenfalls in zwei Disziplinen mit einem Vielfachen der Wortanzahl.
 
 \begin{table}
 \caption{\label{tab:wordcount_kpi_women}Kennwerte: Anzahl der Worte (Frauen)}
@@ -265,11 +268,11 @@ In drei Disziplinen ist der Artikel mit der höchsten Wortanzahl über eine Frau
 
 \begin{figure}
 \includegraphics[width=1\textwidth]{figures/wordcount_max_std.png}
-\caption[Maxima und Standardabweichungen der Wortanzahl für alle Disziplinen]{Maxima und Standardabweichungen der Wortanzahl für alle Disziplinen}
+\caption[Kennwerte Wortanzahl: Maximum und Standardabweichung]{Kennwerte Wortanzahl: Maximum und Standardabweichung}
 \label{fig:wordcountMaxStd}
 \end{figure}
 
-Die Mittelwerte und Median-Werte in Abbildung \ref{fig:wordcountMeanMedian} der einzelnen Sportarten geben mit Ausnahme der Disziplin Radsport Straße Einzelwettkampf, bei der sowohl bei Mittelwert als auch Median die Artikellänge von männlichen die der weiblichen Sportler*innen um ein Vielfaches überschreitet, ein ausgeglicheneres Bild zwischen der Artikellänge von Männern und Frauen.   
+Die Mittelwerte und Median-Werte in Abbildung \ref{fig:wordcountMeanMedian} der einzelnen Sportarten geben mit Ausnahme der Disziplin Radsport Straße Einzelwettkampf, bei der sowohl bei Mittelwert als auch Median die Artikellänge von männlichen die der weiblichen Sportler*innen um ein Vielfaches überschreitet, ein ausgeglicheneres Bild zwischen der Artikellänge von Männern und Frauen.
 
 Auffällig ist, dass sich im Vergleich von Mittelwert und Median die Verhältnisse in fünf von acht Fällen umkehren. Davon wird in vier Fällen im Median die Artikellänge der Männer höher, wo sie im Mittelwert niedriger ist, und in einem Fall umgekehrt (Turmspringen 10m).
 
@@ -277,7 +280,7 @@ Das könnte auf Ausreißer verweisen, die im Median weniger Bedeutung haben.
 
 \begin{figure}
 \includegraphics[width=1\textwidth]{figures/wordcount_mean_median.png}
-\caption[Mittelwerte und Mediane der Wortanzahl für alle Disziplinen]{Mittelwerte und Mediane der Wortanzahl für alle Disziplinen}
+\caption[Kennwerte Wortanzahl: Mittelwerte und Mediane]{Kennwerte Wortanzahl: Mittelwerte und Mediane}
 \label{fig:wordcountMeanMedian}
 \end{figure}
 
@@ -325,19 +328,19 @@ Wie bei der Anzahl der Wörter im zuvorkommenden Abschnitt fällt bei der Betrac
 
 \begin{figure}
 \includegraphics[width=1\textwidth]{figures/editcount_small_bins_histogram.png}
-\caption[Histogramm: Anzahl der Edits]{Histogramm: Anzahl der Edits}
+\caption[Anzahl der Editierungen für Sportler*innen]{Anzahl der Editierungen für Sportler*innen}
 \label{fig:editcountHistogram}
 \end{figure}
 
-Da die Histogramme der verschiedenen Disziplinen in Abbildung \ref{fig:editcountDisciplineHistogram} sehr linksbündig sind, wird diese Beobachtung dadurch zusätzlich bestätigt. 
+Da die Histogramme der verschiedenen Disziplinen in Abbildung \ref{fig:editcountDisciplineHistogram} sehr linksbündig sind, wird diese Beobachtung dadurch zusätzlich bestätigt.
 
 \begin{figure}
 \includegraphics[width=1\textwidth]{figures/editcount_disciplines_histogram.png}
-\caption[Histogramme: Editierungen pro Disziplin]{Histogramme: Editierungen pro Disziplin}
+\caption[Editierungen pro Disziplin]{Editierungen pro Disziplin}
 \label{fig:editcountDisciplineHistogram}
 \end{figure}
 
-Die folgenden Grafiken zeigen jeweils die Maximal-, Mittel- und Medianwerte sowie die Standardabweichung der Editierungen pro Disziplin. 
+Die folgenden Grafiken zeigen jeweils die Maximal-, Mittel- und Medianwerte sowie die Standardabweichung der Editierungen pro Disziplin.
 
 Mit Blick auf die Maxima der Editierungen (siehe Abbildung \ref{fig:editcountMaxStd}) pro Disziplin ist erkennbar, dass es durchaus Unterschiede zwischen Frauen und Männern gibt, da insbesondere in den Disziplinen "Turmspringen 10m", "Radsport Straße Einzelwettkampf" und "Leichtathletik Sprint 100m" signifikante Unterschiede zugunsten der Männer sichtbar sind. Allerdings ist dies nur bedingt aussagekräftig, da es sich bei den Maxima um Ausreißer handeln kann, die nicht maßgeblich für die durchschnittliche Verteilung sind. Dies verifizieren wir durch nachfolgende Plots.
 
@@ -394,9 +397,9 @@ Aufgrund der Verteilung der Daten ist der Median hingegen durch die Sortierung d
 \end{table}
 
 \subsubsection{Ausreißer}
-Wie in der Methodik beschrieben, nutzen wir Box- und Stripplots insbesondere zur Visualisierung der Ausreißer in der vorhandenen Datenquelle. Die Abbildungen zeigen jeweils die Männer auf der linken und die Frauen auf der rechten Seite. 
+Wie in der Methodik beschrieben, nutzen wir Box- und Stripplots insbesondere zur Visualisierung der Ausreißer in der vorhandenen Datenquelle. Die Abbildungen zeigen jeweils die Männer auf der linken und die Frauen auf der rechten Seite.
 
-Es ist deutlich in Abbildungen \ref{fig:editcountBoxPlot} und \ref{fig:editcountStripPlot} erkennbar, dass bei den Männern mehrere sehr hohe Werte aufzufinden sind während es bei den Frauen zwar ebenfalls viele Ausreißer gibt, diese allerdings vergleichsweise niedrig angesiedelt sind. Die Disziplinen Turmspringen 10m, Radsport Straße Einzelwettkampf und  Leichtathletik Sprint 100m fallen bei den Männern durch vereinzelte hochwertige Ergebnisse besonders auf. Bei den Frauen ist nur ein vergleichsweise hochwertiger Ausreißer in der Disziplin Leichtathletik Sprint 100m zu erkennen, der sich allerdings nur marginal von den restlichen Ausreißern abgrenzt. 
+Es ist deutlich in Abbildungen \ref{fig:editcountBoxPlot} und \ref{fig:editcountStripPlot} erkennbar, dass bei den Männern mehrere sehr hohe Werte aufzufinden sind während es bei den Frauen zwar ebenfalls viele Ausreißer gibt, diese allerdings vergleichsweise niedrig angesiedelt sind. Die Disziplinen Turmspringen 10m, Radsport Straße Einzelwettkampf und  Leichtathletik Sprint 100m fallen bei den Männern durch vereinzelte hochwertige Ergebnisse besonders auf. Bei den Frauen ist nur ein vergleichsweise hochwertiger Ausreißer in der Disziplin Leichtathletik Sprint 100m zu erkennen, der sich allerdings nur marginal von den restlichen Ausreißern abgrenzt.
 
 \begin{figure}
 \includegraphics[width=1\textwidth]{figures/editcount_boxplot.png}
@@ -448,4 +451,3 @@ Zudem fokussiert sich unsere Studie auf den stark quantitativ ausgerichteten Abd
 
 \printbibliography
 \end{document}
-
